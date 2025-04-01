@@ -1,0 +1,16 @@
+C:\Users\cucchiarini.cesare\Desktop\progetti C#\impiccatoGUI\impiccatoGUI\bin\Debug\net8.0-windows\impiccatoGUI.exe
+C:\Users\cucchiarini.cesare\Desktop\progetti C#\impiccatoGUI\impiccatoGUI\bin\Debug\net8.0-windows\impiccatoGUI.deps.json
+C:\Users\cucchiarini.cesare\Desktop\progetti C#\impiccatoGUI\impiccatoGUI\bin\Debug\net8.0-windows\impiccatoGUI.runtimeconfig.json
+C:\Users\cucchiarini.cesare\Desktop\progetti C#\impiccatoGUI\impiccatoGUI\bin\Debug\net8.0-windows\impiccatoGUI.dll
+C:\Users\cucchiarini.cesare\Desktop\progetti C#\impiccatoGUI\impiccatoGUI\bin\Debug\net8.0-windows\impiccatoGUI.pdb
+C:\Users\cucchiarini.cesare\Desktop\progetti C#\impiccatoGUI\impiccatoGUI\obj\Debug\net8.0-windows\impiccatoGUI.Form1.resources
+C:\Users\cucchiarini.cesare\Desktop\progetti C#\impiccatoGUI\impiccatoGUI\obj\Debug\net8.0-windows\impiccatoGUI.csproj.GenerateResource.cache
+C:\Users\cucchiarini.cesare\Desktop\progetti C#\impiccatoGUI\impiccatoGUI\obj\Debug\net8.0-windows\impiccatoGUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cucchiarini.cesare\Desktop\progetti C#\impiccatoGUI\impiccatoGUI\obj\Debug\net8.0-windows\impiccatoGUI.AssemblyInfoInputs.cache
+C:\Users\cucchiarini.cesare\Desktop\progetti C#\impiccatoGUI\impiccatoGUI\obj\Debug\net8.0-windows\impiccatoGUI.AssemblyInfo.cs
+C:\Users\cucchiarini.cesare\Desktop\progetti C#\impiccatoGUI\impiccatoGUI\obj\Debug\net8.0-windows\impiccatoGUI.csproj.CoreCompileInputs.cache
+C:\Users\cucchiarini.cesare\Desktop\progetti C#\impiccatoGUI\impiccatoGUI\obj\Debug\net8.0-windows\impiccatoGUI.dll
+C:\Users\cucchiarini.cesare\Desktop\progetti C#\impiccatoGUI\impiccatoGUI\obj\Debug\net8.0-windows\refint\impiccatoGUI.dll
+C:\Users\cucchiarini.cesare\Desktop\progetti C#\impiccatoGUI\impiccatoGUI\obj\Debug\net8.0-windows\impiccatoGUI.pdb
+C:\Users\cucchiarini.cesare\Desktop\progetti C#\impiccatoGUI\impiccatoGUI\obj\Debug\net8.0-windows\impiccatoGUI.genruntimeconfig.cache
+C:\Users\cucchiarini.cesare\Desktop\progetti C#\impiccatoGUI\impiccatoGUI\obj\Debug\net8.0-windows\ref\impiccatoGUI.dll
