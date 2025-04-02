@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            lbox_indizio = new ListBox();
             lbl_segreto = new Label();
             btn_invio = new Button();
             lbl_tentativi = new Label();
@@ -52,36 +51,32 @@
             label10 = new Label();
             label11 = new Label();
             lbl_punti = new Label();
+            combox_indizio = new ComboBox();
+            lbl_tema = new Label();
+            label14 = new Label();
+            pbox_impiccato = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pbox_impiccato).BeginInit();
             SuspendLayout();
-            // 
-            // lbox_indizio
-            // 
-            lbox_indizio.FormattingEnabled = true;
-            lbox_indizio.ItemHeight = 15;
-            lbox_indizio.Items.AddRange(new object[] { "niente", "prima lettera", "ultima lettera", "tema" });
-            lbox_indizio.Location = new Point(599, 214);
-            lbox_indizio.Name = "lbox_indizio";
-            lbox_indizio.Size = new Size(95, 19);
-            lbox_indizio.TabIndex = 0;
             // 
             // lbl_segreto
             // 
             lbl_segreto.AutoSize = true;
             lbl_segreto.BackColor = SystemColors.ActiveCaption;
             lbl_segreto.Font = new Font("Segoe UI", 12F);
-            lbl_segreto.Location = new Point(323, 91);
+            lbl_segreto.Location = new Point(323, 72);
             lbl_segreto.Name = "lbl_segreto";
             lbl_segreto.Size = new Size(0, 21);
             lbl_segreto.TabIndex = 1;
             // 
             // btn_invio
             // 
-            btn_invio.Location = new Point(332, 302);
+            btn_invio.Location = new Point(377, 299);
             btn_invio.Name = "btn_invio";
             btn_invio.Size = new Size(75, 23);
             btn_invio.TabIndex = 2;
             btn_invio.Text = "invio";
             btn_invio.UseVisualStyleBackColor = true;
+            btn_invio.Click += btn_invio_Click;
             // 
             // lbl_tentativi
             // 
@@ -115,19 +110,20 @@
             lbl_usate.AutoSize = true;
             lbl_usate.BackColor = SystemColors.ActiveCaption;
             lbl_usate.Font = new Font("Segoe UI", 12F);
-            lbl_usate.Location = new Point(599, 91);
+            lbl_usate.Location = new Point(599, 72);
             lbl_usate.Name = "lbl_usate";
             lbl_usate.Size = new Size(0, 21);
             lbl_usate.TabIndex = 6;
             // 
             // btn_info
             // 
-            btn_info.Location = new Point(332, 369);
+            btn_info.Location = new Point(377, 360);
             btn_info.Name = "btn_info";
             btn_info.Size = new Size(75, 23);
             btn_info.TabIndex = 11;
             btn_info.Text = "info";
             btn_info.UseVisualStyleBackColor = true;
+            btn_info.Click += btn_info_Click;
             // 
             // cbox_jolly
             // 
@@ -197,7 +193,7 @@
             // 
             label5.AutoSize = true;
             label5.BackColor = SystemColors.ActiveCaption;
-            label5.Location = new Point(323, 64);
+            label5.Location = new Point(323, 53);
             label5.Name = "label5";
             label5.Size = new Size(84, 15);
             label5.TabIndex = 19;
@@ -207,7 +203,7 @@
             // 
             label6.AutoSize = true;
             label6.BackColor = SystemColors.ActiveCaption;
-            label6.Location = new Point(599, 64);
+            label6.Location = new Point(599, 53);
             label6.Name = "label6";
             label6.Size = new Size(74, 15);
             label6.TabIndex = 20;
@@ -245,9 +241,9 @@
             // 
             // btn_parola
             // 
-            btn_parola.Location = new Point(152, 56);
+            btn_parola.Location = new Point(160, 53);
             btn_parola.Name = "btn_parola";
-            btn_parola.Size = new Size(75, 23);
+            btn_parola.Size = new Size(61, 40);
             btn_parola.TabIndex = 24;
             btn_parola.Text = "genera parola";
             btn_parola.UseVisualStyleBackColor = true;
@@ -281,11 +277,52 @@
             lbl_punti.Size = new Size(0, 15);
             lbl_punti.TabIndex = 27;
             // 
+            // combox_indizio
+            // 
+            combox_indizio.FormattingEnabled = true;
+            combox_indizio.Items.AddRange(new object[] { "prima lettera", "ultima lettera", "tema" });
+            combox_indizio.Location = new Point(613, 214);
+            combox_indizio.Name = "combox_indizio";
+            combox_indizio.Size = new Size(70, 23);
+            combox_indizio.TabIndex = 32;
+            // 
+            // lbl_tema
+            // 
+            lbl_tema.AutoSize = true;
+            lbl_tema.BackColor = SystemColors.ActiveCaption;
+            lbl_tema.Location = new Point(71, 164);
+            lbl_tema.Name = "lbl_tema";
+            lbl_tema.Size = new Size(0, 15);
+            lbl_tema.TabIndex = 34;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.BackColor = SystemColors.ActiveCaption;
+            label14.Location = new Point(12, 164);
+            label14.Name = "label14";
+            label14.Size = new Size(37, 15);
+            label14.TabIndex = 33;
+            label14.Text = "tema:";
+            // 
+            // pbox_impiccato
+            // 
+            pbox_impiccato.Location = new Point(25, 258);
+            pbox_impiccato.Name = "pbox_impiccato";
+            pbox_impiccato.Size = new Size(215, 180);
+            pbox_impiccato.SizeMode = PictureBoxSizeMode.StretchImage;
+            pbox_impiccato.TabIndex = 35;
+            pbox_impiccato.TabStop = false;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(pbox_impiccato);
+            Controls.Add(lbl_tema);
+            Controls.Add(label14);
+            Controls.Add(combox_indizio);
             Controls.Add(lbl_punti);
             Controls.Add(label10);
             Controls.Add(label11);
@@ -309,16 +346,14 @@
             Controls.Add(lbl_tentativi);
             Controls.Add(btn_invio);
             Controls.Add(lbl_segreto);
-            Controls.Add(lbox_indizio);
             Name = "Form1";
             Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)pbox_impiccato).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private ListBox lbox_indizio;
         private Label lbl_segreto;
         private Button btn_invio;
         private Label lbl_tentativi;
@@ -342,5 +377,9 @@
         private Label label10;
         private Label label11;
         private Label lbl_punti;
+        private ComboBox combox_indizio;
+        private Label lbl_tema;
+        private Label label14;
+        private PictureBox pbox_impiccato;
     }
 }

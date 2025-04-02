@@ -9,6 +9,10 @@ namespace impiccatoGUI
         static string[] scelta = new string[2];
         string[] parole = File.ReadAllLines("./paroleImpiccatoGUI.txt");
         char[] parolaSegreta;
+        string[] immagini = { ".\\impic\\0Errori.png", ".\\impic\\1Errori.png", ".\\impic\\2Errori.png", ".\\impic\\3Errori.png"
+                    , ".\\impic\\4Errori.png", ".\\impic\\5Errori.png", 
+                        ".\\impic\\6Errori.png", ".\\impic\\7Errori.png", ".\\impic\\8Errori.png"
+                    , ".\\impic\\9Errori.png", ".\\impic\\10Errori.png"};
         public Form1()
         {
             InitializeComponent();
@@ -20,22 +24,123 @@ namespace impiccatoGUI
             tentativi = 10;
             jolly = true;
             usate = "";
+            lbl_tema.Text = null;
             lbl_usate.Text = usate;
             lbl_tentativi.Text = tentativi.ToString();
-            lbl_monete.Text=monete.ToString();
-            lbl_jolly.Text=jolly.ToString();
+            lbl_monete.Text = monete.ToString();
+            lbl_jolly.Text = jolly.ToString();
             lbl_punti.Text = punti.ToString();
-            
-            int arg1=rnd.Next(10);
-            scelta[0] = parole[arg1 * 50 + arg1 + 1];
-            scelta[1] = parole[arg1 * 50 + arg1 + 1 + rnd.Next(1, 51)];
+            pbox_impiccato.Image= Image.FromFile(immagini[10-tentativi]);
+
+            int arg1 = rnd.Next(10);
+            scelta[0] = parole[arg1 * 50 + arg1].ToLower();
+            scelta[1] = parole[arg1 * 50 + arg1 + rnd.Next(1, 51)].ToLower();
 
             parolaSegreta = new char[scelta[1].Length];
-            for(int i = 0; i < parolaSegreta.Length; i++)
+            for (int i = 0; i < parolaSegreta.Length; i++)
             {
                 parolaSegreta[i] = '_';
             }
             lbl_segreto.Text = new string(parolaSegreta);
+        }
+
+        private void btn_invio_Click(object sender, EventArgs e)
+        {
+            if (tbox_carattere.Text.Length > 0)
+            {
+                char c = tbox_carattere.Text[0];
+                if (!usate.Contains(c))
+                {
+                    usate += c;
+                    if (scelta[1].Contains(c))
+                    {
+                        for (int i = 0; i < scelta[1].Length; i++)
+                        {
+                            if (scelta[1][i] == c)
+                            {
+                                parolaSegreta[i] = c;
+                            }
+                        }
+                        punti += 5;
+                    }
+                    else
+                    {
+                        tentativi--;
+                    }
+                }
+            }
+            else if (tbox_inserimento.Text.Length > 0)
+            {
+                string p = tbox_inserimento.Text;
+                if (scelta[1] == p)
+                {
+                    parolaSegreta = scelta[1].ToCharArray();
+                    punti += 20;
+                }
+                else
+                {
+                    tentativi = 0;
+                }
+            }
+            else if (cbox_jolly.Checked && jolly)
+            {
+                while (true)
+                {
+                    int x = rnd.Next(parolaSegreta.Length);
+                    if (parolaSegreta[x] == '_')
+                    {
+                        parolaSegreta[x] = scelta[1][x];
+                        jolly = false;
+                        break;
+                    }
+                }
+            }
+            else if (combox_indizio.Text.Length > 0)
+            {
+                switch (combox_indizio.Text)
+                {
+                    case "prima lettera":
+                        if (parolaSegreta[0] == '_')
+                        {
+                            monete -= 10;
+                            parolaSegreta[0] = scelta[1][0];
+                        }
+                        break;
+                    case "ultima lettera":
+                        if (parolaSegreta[parolaSegreta.Length - 1] == '_')
+                        {
+                            monete -= 5;
+                            parolaSegreta[parolaSegreta.Length - 1] = scelta[1][parolaSegreta.Length - 1];
+                        }
+                        break;
+                    case "tema":
+                        if (lbl_tema.Text != scelta[0])
+                        {
+                            monete -= 15;
+                            lbl_tema.Text = scelta[0];
+                        }
+                        break;
+                }
+            }
+
+            lbl_usate.Text = usate;
+            lbl_tentativi.Text = tentativi.ToString();
+            lbl_monete.Text = monete.ToString();
+            lbl_jolly.Text = jolly.ToString();
+            lbl_punti.Text = punti.ToString();
+            lbl_segreto.Text = new string(parolaSegreta);
+            tbox_carattere.Text = null;
+            tbox_inserimento.Text = null;
+            cbox_jolly.Checked = false;
+            combox_indizio.Text = null;
+            pbox_impiccato.Image = Image.FromFile(immagini[10 - tentativi]);
+        }
+
+        private void btn_info_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("----questo è l'impiccato----\nPer creare una parola clicca su genera parola\n" +
+                "Per inviare la scelta cliccare sul bottone invio (la scelta considerata sarà quella più a sinistra)\n" +
+                "In alto a sinistra trovi tutte le informazioni sulla parola e su di te.");
         }
     }
 }
