@@ -10,7 +10,7 @@ namespace impiccatoGUI
         string[] parole = File.ReadAllLines("./paroleImpiccatoGUI.txt");
         char[] parolaSegreta;
         string[] immagini = { ".\\impic\\0Errori.png", ".\\impic\\1Errori.png", ".\\impic\\2Errori.png", ".\\impic\\3Errori.png"
-                    , ".\\impic\\4Errori.png", ".\\impic\\5Errori.png", 
+                    , ".\\impic\\4Errori.png", ".\\impic\\5Errori.png",
                         ".\\impic\\6Errori.png", ".\\impic\\7Errori.png", ".\\impic\\8Errori.png"
                     , ".\\impic\\9Errori.png", ".\\impic\\10Errori.png"};
         public Form1()
@@ -30,7 +30,8 @@ namespace impiccatoGUI
             lbl_monete.Text = monete.ToString();
             lbl_jolly.Text = jolly.ToString();
             lbl_punti.Text = punti.ToString();
-            pbox_impiccato.Image= Image.FromFile(immagini[10-tentativi]);
+            pbox_impiccato.Image = Image.FromFile(immagini[10 - tentativi]);
+            btn_invio.Enabled = true;
 
             int arg1 = rnd.Next(10);
             scelta[0] = parole[arg1 * 50 + arg1].ToLower();
@@ -134,8 +135,40 @@ namespace impiccatoGUI
             cbox_jolly.Checked = false;
             combox_indizio.Text = null;
             pbox_impiccato.Image = Image.FromFile(immagini[10 - tentativi]);
-        }
 
+            if (!parolaSegreta.Contains('_'))
+            {
+                btn_invio.Enabled = false;
+            }
+            else if (tentativi == 0)
+            {
+                this.Controls.Clear();
+                Label lbl_sconfitta = new Label();
+                lbl_sconfitta.Font = new Font("Arial", 30);
+                lbl_sconfitta.Text = "Hai perso";
+                lbl_sconfitta.Location = new Point(300, 156);
+                lbl_sconfitta.AutoSize = true;
+                this.Controls.Add(lbl_sconfitta);
+                Button btn_chiudi=new Button();
+                btn_chiudi.Location = new Point(324, 299);
+                btn_chiudi.Text = "ciudi";
+                btn_chiudi.Click += btn_chiudi_Click;
+                this.Controls.Add(btn_chiudi);
+                PictureBox pbox_sconfitta=new PictureBox();
+                pbox_sconfitta.Location = new Point(25, 258);
+                pbox_sconfitta.Name = "pbox_impiccato";
+                pbox_sconfitta.Size = new Size(215, 180);
+                pbox_sconfitta.SizeMode = PictureBoxSizeMode.StretchImage;
+                pbox_sconfitta.TabIndex = 35;
+                pbox_sconfitta.TabStop = false;
+                pbox_sconfitta.Image = Image.FromFile(".\\impic\\10Errori.png");
+                this.Controls.Add(pbox_sconfitta);
+            }
+        }
+        private void btn_chiudi_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
         private void btn_info_Click(object sender, EventArgs e)
         {
             MessageBox.Show("----questo è l'impiccato----\nPer creare una parola clicca su genera parola\n" +

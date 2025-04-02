@@ -70,7 +70,8 @@
             // 
             // btn_invio
             // 
-            btn_invio.Location = new Point(377, 299);
+            btn_invio.Enabled = false;
+            btn_invio.Location = new Point(332, 302);
             btn_invio.Name = "btn_invio";
             btn_invio.Size = new Size(75, 23);
             btn_invio.TabIndex = 2;
@@ -117,7 +118,7 @@
             // 
             // btn_info
             // 
-            btn_info.Location = new Point(377, 360);
+            btn_info.Location = new Point(332, 355);
             btn_info.Name = "btn_info";
             btn_info.Size = new Size(75, 23);
             btn_info.TabIndex = 11;
