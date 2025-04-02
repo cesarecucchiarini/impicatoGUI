@@ -55,6 +55,8 @@
             lbl_tema = new Label();
             label14 = new Label();
             pbox_impiccato = new PictureBox();
+            label12 = new Label();
+            lbox_diff = new ListBox();
             ((System.ComponentModel.ISupportInitialize)pbox_impiccato).BeginInit();
             SuspendLayout();
             // 
@@ -130,7 +132,7 @@
             // 
             cbox_jolly.AutoSize = true;
             cbox_jolly.Font = new Font("Segoe UI", 9F);
-            cbox_jolly.Location = new Point(495, 218);
+            cbox_jolly.Location = new Point(503, 218);
             cbox_jolly.Name = "cbox_jolly";
             cbox_jolly.Size = new Size(15, 14);
             cbox_jolly.TabIndex = 12;
@@ -315,11 +317,33 @@
             pbox_impiccato.TabIndex = 35;
             pbox_impiccato.TabStop = false;
             // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.BackColor = SystemColors.ActiveCaption;
+            label12.Location = new Point(644, 355);
+            label12.Name = "label12";
+            label12.Size = new Size(54, 15);
+            label12.TabIndex = 37;
+            label12.Text = "difficoltà";
+            // 
+            // lbox_diff
+            // 
+            lbox_diff.FormattingEnabled = true;
+            lbox_diff.ItemHeight = 15;
+            lbox_diff.Items.AddRange(new object[] { "facile", "medio", "difficile" });
+            lbox_diff.Location = new Point(613, 373);
+            lbox_diff.Name = "lbox_diff";
+            lbox_diff.Size = new Size(120, 49);
+            lbox_diff.TabIndex = 38;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(lbox_diff);
+            Controls.Add(label12);
             Controls.Add(pbox_impiccato);
             Controls.Add(lbl_tema);
             Controls.Add(label14);
@@ -382,5 +406,7 @@
         private Label lbl_tema;
         private Label label14;
         private PictureBox pbox_impiccato;
+        private Label label12;
+        private ListBox lbox_diff;
     }
 }

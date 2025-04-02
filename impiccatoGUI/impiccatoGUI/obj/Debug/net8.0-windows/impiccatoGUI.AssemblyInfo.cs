@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("impiccatoGUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+400f91fc6d850ff3357e6d307488e07d7cf4f715")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c307c93befff94c7bf27cad2b10271601f41b46")]
 [assembly: System.Reflection.AssemblyProductAttribute("impiccatoGUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("impiccatoGUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

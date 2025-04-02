@@ -32,3 +32,21 @@ C:\Users\cucchiarini.cesare\Desktop\progetti C#\impicatoGUI\impiccatoGUI\impicca
 C:\Users\cucchiarini.cesare\Desktop\progetti C#\impicatoGUI\impiccatoGUI\impiccatoGUI\obj\Debug\net8.0-windows\impiccatoGUI.genruntimeconfig.cache
 C:\Users\cucchiarini.cesare\Desktop\progetti C#\impicatoGUI\impiccatoGUI\impiccatoGUI\obj\Debug\net8.0-windows\ref\impiccatoGUI.dll
 C:\Users\cucchiarini.cesare\Desktop\progetti C#\impicatoGUI\impiccatoGUI\impiccatoGUI\obj\Debug\net8.0-windows\impiccatoGUI.Properties.Resources.resources
+C:\Users\sergi\OneDrive\Desktop\progettiC#\impicatoGUI\impiccatoGUI\impiccatoGUI\bin\Debug\net8.0-windows\impiccatoGUI.exe
+C:\Users\sergi\OneDrive\Desktop\progettiC#\impicatoGUI\impiccatoGUI\impiccatoGUI\bin\Debug\net8.0-windows\impiccatoGUI.deps.json
+C:\Users\sergi\OneDrive\Desktop\progettiC#\impicatoGUI\impiccatoGUI\impiccatoGUI\bin\Debug\net8.0-windows\impiccatoGUI.runtimeconfig.json
+C:\Users\sergi\OneDrive\Desktop\progettiC#\impicatoGUI\impiccatoGUI\impiccatoGUI\bin\Debug\net8.0-windows\impiccatoGUI.dll
+C:\Users\sergi\OneDrive\Desktop\progettiC#\impicatoGUI\impiccatoGUI\impiccatoGUI\bin\Debug\net8.0-windows\impiccatoGUI.pdb
+C:\Users\sergi\OneDrive\Desktop\progettiC#\impicatoGUI\impiccatoGUI\impiccatoGUI\obj\Debug\net8.0-windows\impiccatoGUI.Form1.resources
+C:\Users\sergi\OneDrive\Desktop\progettiC#\impicatoGUI\impiccatoGUI\impiccatoGUI\obj\Debug\net8.0-windows\impiccatoGUI.Properties.Resources.resources
+C:\Users\sergi\OneDrive\Desktop\progettiC#\impicatoGUI\impiccatoGUI\impiccatoGUI\obj\Debug\net8.0-windows\impiccatoGUI.csproj.GenerateResource.cache
+C:\Users\sergi\OneDrive\Desktop\progettiC#\impicatoGUI\impiccatoGUI\impiccatoGUI\obj\Debug\net8.0-windows\impiccatoGUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sergi\OneDrive\Desktop\progettiC#\impicatoGUI\impiccatoGUI\impiccatoGUI\obj\Debug\net8.0-windows\impiccatoGUI.AssemblyInfoInputs.cache
+C:\Users\sergi\OneDrive\Desktop\progettiC#\impicatoGUI\impiccatoGUI\impiccatoGUI\obj\Debug\net8.0-windows\impiccatoGUI.AssemblyInfo.cs
+C:\Users\sergi\OneDrive\Desktop\progettiC#\impicatoGUI\impiccatoGUI\impiccatoGUI\obj\Debug\net8.0-windows\impiccatoGUI.csproj.CoreCompileInputs.cache
+C:\Users\sergi\OneDrive\Desktop\progettiC#\impicatoGUI\impiccatoGUI\impiccatoGUI\obj\Debug\net8.0-windows\impiccatoGUI.sourcelink.json
+C:\Users\sergi\OneDrive\Desktop\progettiC#\impicatoGUI\impiccatoGUI\impiccatoGUI\obj\Debug\net8.0-windows\impiccatoGUI.dll
+C:\Users\sergi\OneDrive\Desktop\progettiC#\impicatoGUI\impiccatoGUI\impiccatoGUI\obj\Debug\net8.0-windows\refint\impiccatoGUI.dll
+C:\Users\sergi\OneDrive\Desktop\progettiC#\impicatoGUI\impiccatoGUI\impiccatoGUI\obj\Debug\net8.0-windows\impiccatoGUI.pdb
+C:\Users\sergi\OneDrive\Desktop\progettiC#\impicatoGUI\impiccatoGUI\impiccatoGUI\obj\Debug\net8.0-windows\impiccatoGUI.genruntimeconfig.cache
+C:\Users\sergi\OneDrive\Desktop\progettiC#\impicatoGUI\impiccatoGUI\impiccatoGUI\obj\Debug\net8.0-windows\ref\impiccatoGUI.dll
