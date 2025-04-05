@@ -39,37 +39,24 @@ namespace impiccatoGUI
             cbox_jolly.Checked = false;
             combox_indizio.Text = null;
             pbox_impiccato.Image = Image.FromFile(immagini[maxTent - tentativi]);
+            cbox_descrizione.Checked = false;
         }
-
-        Random rnd = new Random();
-        int monete = 0, tentativi = 0, punti = 0, maxTent=0;
-        bool jolly = false;
-        string usate = "";
-        static string[] scelta = new string[2];
-        string[] parole = File.ReadAllLines("./paroleImpiccatoGUI.txt");
-        char[] parolaSegreta;
-        string[] immagini = null;
-        public Form1()
-        {
-            InitializeComponent();
-        }
-
-        private void btn_parola_Click(object sender, EventArgs e)
+        public void azzeramento()
         {
             string d = lbox_diff.Text;
-            monete= d switch { "facile" => 30, "medio" =>20, "difficile" => 10, _ =>10 };
-            tentativi =maxTent= d switch { "facile" => 10, "medio" => 7, "difficile" => 5, _ => 5 };
+            monete = d switch { "facile" => 30, "medio" => 20, "difficile" => 10, _ => 20 };
+            tentativi = maxTent = d switch { "facile" => 10, "medio" => 7, "difficile" => 5, _ => 7 };
             switch (d)
             {
                 case "facile":
-                    immagini= new string[] {
+                    immagini = new string[] {
                         ".\\impic\\0Errori.png", ".\\impic\\1Errori.png", ".\\impic\\2Errori.png", ".\\impic\\3Errori.png"
                     , ".\\impic\\4Errori.png", ".\\impic\\5Errori.png",
                         ".\\impic\\6Errori.png", ".\\impic\\7Errori.png", ".\\impic\\8Errori.png"
                     , ".\\impic\\9Errori.png", ".\\impic\\10Errori.png" };
                     break;
                 case "medio":
-                    immagini= new string[] {
+                    immagini = new string[] {
                         ".\\impic\\0Errori.png", ".\\impic\\1Errori.png", ".\\impic\\2Errori.png", ".\\impic\\3Errori.png"
                     , ".\\impic\\4Errori.png", ".\\impic\\5Errori.png",
                         ".\\impic\\6Errori.png", ".\\impic\\10Errori.png" };
@@ -88,7 +75,7 @@ namespace impiccatoGUI
             }
             jolly = true;
             usate = "";
-            lbl_tema.Text = null;
+            lbl_tema.Text = ""; ;
             lbl_usate.Text = usate;
             lbl_tentativi.Text = tentativi.ToString();
             lbl_monete.Text = monete.ToString();
@@ -96,10 +83,35 @@ namespace impiccatoGUI
             lbl_punti.Text = punti.ToString();
             pbox_impiccato.Image = Image.FromFile(immagini[0]);
             btn_invio.Enabled = true;
-
+            lbl_descrizione.Text = "";
+        }
+        public void trovaParola()
+        {
             int arg1 = rnd.Next(10);
+            int arg2 = rnd.Next(1, 51);
             scelta[0] = parole[arg1 * 50 + arg1].ToLower();
-            scelta[1] = parole[arg1 * 50 + arg1 + rnd.Next(1, 51)].ToLower();
+            scelta[1] = parole[arg1 * 50 + arg1 + arg2].ToLower().Split(" - ")[0];
+            scelta[2] = parole[arg1 * 50 + arg1 + arg2].ToLower().Split(" - ")[1];
+        }
+
+        Random rnd = new Random();
+        int monete = 0, tentativi = 0, punti = 0, maxTent=0;
+        bool jolly = false;
+        string usate = "";
+        static string[] scelta = new string[3];
+        string[] parole = File.ReadAllLines("./paroleImpiccatoGUI.txt");
+        char[] parolaSegreta;
+        string[] immagini = null;
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void btn_parola_Click(object sender, EventArgs e)
+        {
+            azzeramento();
+
+            trovaParola();
 
             parolaSegreta = new char[scelta[1].Length];
             for (int i = 0; i < parolaSegreta.Length; i++)
@@ -163,6 +175,10 @@ namespace impiccatoGUI
                         cambio = false;
                     }
                 }
+            }
+            else if (cbox_descrizione.Checked && jolly)
+            {
+                lbl_descrizione.Text = scelta[2];
             }
             else if (combox_indizio.Text.Length > 0)
             {

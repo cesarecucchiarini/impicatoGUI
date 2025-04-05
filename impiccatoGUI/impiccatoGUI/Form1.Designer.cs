@@ -57,6 +57,9 @@
             pbox_impiccato = new PictureBox();
             label12 = new Label();
             lbox_diff = new ListBox();
+            cbox_descrizione = new CheckBox();
+            lbl_descrizione = new Label();
+            label15 = new Label();
             ((System.ComponentModel.ISupportInitialize)pbox_impiccato).BeginInit();
             SuspendLayout();
             // 
@@ -85,7 +88,7 @@
             // 
             lbl_tentativi.AutoSize = true;
             lbl_tentativi.BackColor = SystemColors.ActiveCaption;
-            lbl_tentativi.Location = new Point(71, 18);
+            lbl_tentativi.Location = new Point(90, 146);
             lbl_tentativi.Name = "lbl_tentativi";
             lbl_tentativi.Size = new Size(0, 15);
             lbl_tentativi.TabIndex = 3;
@@ -94,7 +97,7 @@
             // 
             lbl_monete.AutoSize = true;
             lbl_monete.BackColor = SystemColors.ActiveCaption;
-            lbl_monete.Location = new Point(71, 53);
+            lbl_monete.Location = new Point(90, 181);
             lbl_monete.Name = "lbl_monete";
             lbl_monete.Size = new Size(0, 15);
             lbl_monete.TabIndex = 4;
@@ -103,7 +106,7 @@
             // 
             lbl_jolly.AutoSize = true;
             lbl_jolly.BackColor = SystemColors.ActiveCaption;
-            lbl_jolly.Location = new Point(71, 91);
+            lbl_jolly.Location = new Point(90, 5);
             lbl_jolly.Name = "lbl_jolly";
             lbl_jolly.Size = new Size(0, 15);
             lbl_jolly.TabIndex = 5;
@@ -132,10 +135,11 @@
             // 
             cbox_jolly.AutoSize = true;
             cbox_jolly.Font = new Font("Segoe UI", 9F);
-            cbox_jolly.Location = new Point(503, 218);
+            cbox_jolly.Location = new Point(495, 218);
             cbox_jolly.Name = "cbox_jolly";
-            cbox_jolly.Size = new Size(15, 14);
+            cbox_jolly.Size = new Size(101, 19);
             cbox_jolly.TabIndex = 12;
+            cbox_jolly.Text = "lettera casuale";
             cbox_jolly.UseVisualStyleBackColor = true;
             // 
             // tbox_inserimento
@@ -216,7 +220,7 @@
             // 
             label7.AutoSize = true;
             label7.BackColor = SystemColors.ActiveCaption;
-            label7.Location = new Point(12, 18);
+            label7.Location = new Point(12, 146);
             label7.Name = "label7";
             label7.Size = new Size(53, 15);
             label7.TabIndex = 21;
@@ -226,7 +230,7 @@
             // 
             label8.AutoSize = true;
             label8.BackColor = SystemColors.ActiveCaption;
-            label8.Location = new Point(12, 53);
+            label8.Location = new Point(12, 181);
             label8.Name = "label8";
             label8.Size = new Size(51, 15);
             label8.TabIndex = 22;
@@ -236,7 +240,7 @@
             // 
             label9.AutoSize = true;
             label9.BackColor = SystemColors.ActiveCaption;
-            label9.Location = new Point(12, 91);
+            label9.Location = new Point(12, 5);
             label9.Name = "label9";
             label9.Size = new Size(32, 15);
             label9.TabIndex = 23;
@@ -244,7 +248,7 @@
             // 
             // btn_parola
             // 
-            btn_parola.Location = new Point(160, 53);
+            btn_parola.Location = new Point(332, 5);
             btn_parola.Name = "btn_parola";
             btn_parola.Size = new Size(61, 40);
             btn_parola.TabIndex = 24;
@@ -256,7 +260,7 @@
             // 
             label10.AutoSize = true;
             label10.BackColor = SystemColors.ActiveCaption;
-            label10.Location = new Point(71, 125);
+            label10.Location = new Point(90, 39);
             label10.Name = "label10";
             label10.Size = new Size(0, 15);
             label10.TabIndex = 26;
@@ -265,7 +269,7 @@
             // 
             label11.AutoSize = true;
             label11.BackColor = SystemColors.ActiveCaption;
-            label11.Location = new Point(12, 125);
+            label11.Location = new Point(12, 39);
             label11.Name = "label11";
             label11.Size = new Size(38, 15);
             label11.TabIndex = 25;
@@ -275,7 +279,7 @@
             // 
             lbl_punti.AutoSize = true;
             lbl_punti.BackColor = SystemColors.ActiveCaption;
-            lbl_punti.Location = new Point(71, 125);
+            lbl_punti.Location = new Point(90, 39);
             lbl_punti.Name = "lbl_punti";
             lbl_punti.Size = new Size(0, 15);
             lbl_punti.TabIndex = 27;
@@ -294,7 +298,7 @@
             // 
             lbl_tema.AutoSize = true;
             lbl_tema.BackColor = SystemColors.ActiveCaption;
-            lbl_tema.Location = new Point(71, 164);
+            lbl_tema.Location = new Point(90, 78);
             lbl_tema.Name = "lbl_tema";
             lbl_tema.Size = new Size(0, 15);
             lbl_tema.TabIndex = 34;
@@ -303,7 +307,7 @@
             // 
             label14.AutoSize = true;
             label14.BackColor = SystemColors.ActiveCaption;
-            label14.Location = new Point(12, 164);
+            label14.Location = new Point(12, 78);
             label14.Name = "label14";
             label14.Size = new Size(37, 15);
             label14.TabIndex = 33;
@@ -338,11 +342,44 @@
             lbox_diff.Size = new Size(120, 49);
             lbox_diff.TabIndex = 38;
             // 
+            // cbox_descrizione
+            // 
+            cbox_descrizione.AutoSize = true;
+            cbox_descrizione.Font = new Font("Segoe UI", 9F);
+            cbox_descrizione.Location = new Point(495, 243);
+            cbox_descrizione.Name = "cbox_descrizione";
+            cbox_descrizione.Size = new Size(85, 19);
+            cbox_descrizione.TabIndex = 39;
+            cbox_descrizione.Text = "descrizione";
+            cbox_descrizione.UseVisualStyleBackColor = true;
+            // 
+            // lbl_descrizione
+            // 
+            lbl_descrizione.AutoSize = true;
+            lbl_descrizione.BackColor = SystemColors.ActiveCaption;
+            lbl_descrizione.Location = new Point(90, 112);
+            lbl_descrizione.Name = "lbl_descrizione";
+            lbl_descrizione.Size = new Size(0, 15);
+            lbl_descrizione.TabIndex = 41;
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.BackColor = SystemColors.ActiveCaption;
+            label15.Location = new Point(12, 112);
+            label15.Name = "label15";
+            label15.Size = new Size(69, 15);
+            label15.TabIndex = 40;
+            label15.Text = "descrizione:";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(lbl_descrizione);
+            Controls.Add(label15);
+            Controls.Add(cbox_descrizione);
             Controls.Add(lbox_diff);
             Controls.Add(label12);
             Controls.Add(pbox_impiccato);
@@ -409,5 +446,8 @@
         private PictureBox pbox_impiccato;
         private Label label12;
         private ListBox lbox_diff;
+        private CheckBox cbox_descrizione;
+        private Label lbl_descrizione;
+        private Label label15;
     }
 }
