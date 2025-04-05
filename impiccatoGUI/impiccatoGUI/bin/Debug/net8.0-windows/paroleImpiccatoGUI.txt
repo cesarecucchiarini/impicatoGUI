@@ -1,510 +1,510 @@
 Animali
-cane
-gatto
-lupo
-tigre
-leone
-volpe
-zebra
-foca
-orca
-squalo
-gufo
-corvo
-cigno
-topo
-talpa
-daino
-lontra
-merlo
-storno
-airone
-passero
-falco
-orso
-muflone
-scoiattolo
-cincillà
-delfino
-polpo
-calamaro
-anatra
-gallina
-tacchino
-pavone
-gazza
-struzzo
-cammello
-pinguino
-cervo
-riccio
-coniglio
-bufalo
-cavallo
-ghiro
-iena
-rondine
-aquila
-aragosta
-granchio
-serpente
-formica
+cane - Animale domestico a quattro zampe, spesso compagno dell'uomo.
+gatto - Piccolo felino domestico, noto per la sua agilità e indipendenza.
+lupo - Mammifero carnivoro selvatico, simile a un grande cane.
+tigre - Grande felino predatore con mantello a strisce nere su sfondo arancione.
+leone - Grande felino africano, noto come il "re della giungla".
+volpe - Astuto mammifero carnivoro con una folta coda.
+zebra - Equide africano con un caratteristico mantello a strisce bianche e nere.
+foca - Mammifero marino pinnipede, adattato alla vita acquatica.
+orca - Grande mammifero marino predatore, appartenente alla famiglia dei delfini oceanici.
+squalo - Pesce cartilagineo predatore con denti affilati.
+gufo - Uccello rapace notturno con grandi occhi frontali.
+corvo - Uccello nero intelligente, spesso associato a significati simbolici.
+cigno - Elegante uccello acquatico con un lungo collo sinuoso e piume bianche o nere.
+topo - Piccolo roditore comune in molti ambienti.
+talpa - Piccolo mammifero fossorio con zampe anteriori adatte a scavare.
+daino - Mammifero cervide con corna palmate nei maschi adulti.
+lontra - Mammifero semiacquatico con corpo allungato e pelliccia impermeabile.
+merlo - Uccello canoro nero con becco giallo-arancio nei maschi.
+storno - Uccello gregario noto per i suoi voli sincronizzati in grandi stormi.
+airone - Uccello trampoliere con lunghe zampe e collo, che vive vicino all'acqua.
+passero - Piccolo uccello comune in ambienti urbani e rurali.
+falco - Uccello rapace diurno con vista acuta e volo veloce.
+orso - Grande mammifero onnivoro con folta pelliccia.
+muflone - Mammifero selvatico simile a una pecora, con grandi corna ricurve nei maschi.
+scoiattolo - Piccolo roditore agile con una folta coda, abile a saltare tra gli alberi.
+cincillà - Piccolo roditore con pelliccia molto soffice, originario delle Ande.
+delfino - Mammifero marino intelligente e sociale, noto per i suoi salti e suoni.
+polpo - Mollusco marino cefalopode con otto tentacoli dotati di ventose.
+calamaro - Mollusco marino cefalopode con dieci tentacoli e un corpo allungato.
+anatra - Uccello acquatico con zampe palmate e becco largo e piatto.
+gallina - Uccello domestico allevato per le uova e la carne.
+tacchino - Grande uccello domestico originario del Nord America.
+pavone - Uccello maschio noto per la sua lunga coda colorata a forma di ventaglio.
+gazza - Uccello intelligente con piumaggio bianco e nero e riflessi bluastri o verdastri.
+struzzo - Grande uccello non volatore originario dell'Africa, il più grande uccello vivente.
+cammello - Grande mammifero addomesticato adattato a vivere in ambienti desertici.
+pinguino - Uccello marino non volatore adattato al nuoto in acque fredde.
+cervo - Grande mammifero cervide con corna ramificate nei maschi.
+riccio - Piccolo mammifero con il corpo ricoperto di aculei.
+coniglio - Piccolo mammifero con lunghe orecchie e zampe posteriori adatte al salto.
+bufalo - Grande bovino selvatico o domestico, robusto e con corna larghe.
+cavallo - Grande mammifero equino addomesticato, utilizzato per la monta, il traino e le corse.
+ghiro - Piccolo roditore notturno con una folta coda, simile a uno scoiattolo.
+iena - Mammifero carnivoro con un caratteristico verso simile a una risata.
+rondine - Piccolo uccello migratore con ali lunghe e appuntite e coda biforcuta.
+aquila - Grande uccello rapace diurno con vista eccezionale e volo potente.
+aragosta - Crostaceo marino con dieci zampe, di cui le prime due trasformate in grosse chele.
+granchio - Crostaceo con dieci zampe e un corpo largo e piatto coperto da una corazza.
+serpente - Rettile senza zampe con corpo allungato e squamoso.
+formica - Piccolo insetto sociale che vive in colonie organizzate.
 Cibo e bevande
-pane
-pasta
-pizza
-riso
-latte
-burro
-olio
-sale
-pepe
-carne
-pesce
-pollo
-tacchino
-agnello
-bue
-fagioli
-ceci
-lenticchie
-farina
-zucchero
-miele
-cipolla
-aglio
-limone
-mela
-pera
-pesca
-albicocca
-prugna
-uva
-banana
-anguria
-melone
-fragola
-lampone
-mirtillo
-ciliegia
-noce
-nocciola
-mandorla
-castagna
-carota
-pomodoro
-insalata
-zucchina
-melanzana
-peperone
-cavolo
-broccolo
-cetriolo
+pane - Alimento base ottenuto dalla cottura di un impasto di farina, acqua e lievito.
+pasta - Alimento a base di semola di grano duro e acqua, di diverse forme.
+pizza - Piatto italiano a base di un impasto lievitato condito con pomodoro e mozzarella, cotto al forno.
+riso - Cereale coltivato in tutto il mondo, base per molti piatti.
+latte - Liquido nutriente prodotto dalle ghiandole mammarie dei mammiferi.
+burro - Prodotto lattiero ottenuto dalla lavorazione della panna.
+olio - Sostanza grassa di origine vegetale o animale, usata in cucina.
+sale - Minerale cristallino usato per insaporire i cibi.
+pepe - Spezia piccante ottenuta dai frutti di una pianta rampicante.
+carne - Tessuto muscolare degli animali, utilizzato come alimento.
+pesce - Animale acquatico vertebrato, utilizzato come alimento.
+pollo - Volatile domestico allevato per la carne e le uova.
+tacchino - Grande volatile domestico originario del Nord America, allevato per la carne.
+agnello - Giovane ovino macellato per la carne.
+bue - Bovino adulto castrato, allevato per la carne e il lavoro.
+fagioli - Legumi commestibili, disponibili in molte varietà.
+ceci - Legumi commestibili, di forma rotonda e colore beige.
+lenticchie - Legumi commestibili di piccole dimensioni e forma lenticolare.
+farina - Prodotto ottenuto dalla macinazione di cereali o altri vegetali.
+zucchero - Sostanza dolce cristallina, estratta principalmente dalla canna o dalla barbabietola.
+miele - Sostanza dolce e viscosa prodotta dalle api dal nettare dei fiori.
+cipolla - Ortaggio con bulbo dal sapore pungente.
+aglio - Ortaggio con spicchi dal sapore forte e aromatico.
+limone - Agrume dal sapore acido e succoso.
+mela - Frutto rotondo e croccante, disponibile in molte varietà.
+pera - Frutto a forma di campana, dolce e succoso.
+pesca - Frutto estivo con buccia vellutata e polpa succosa.
+albicocca - Piccolo frutto estivo di colore arancione, con un nocciolo.
+prugna - Frutto con buccia liscia e polpa succosa, disponibile in vari colori.
+uva - Insieme di acini dolci prodotti dalla vite.
+banana - Frutto tropicale allungato con buccia gialla e polpa morbida.
+anguria - Grande frutto estivo con buccia verde e polpa rossa e succosa.
+melone - Frutto estivo con buccia reticolata o liscia e polpa dolce e profumata.
+fragola - Piccolo frutto rosso e succoso, spesso consumato fresco.
+lampone - Piccolo frutto di bosco dal sapore dolce e leggermente acidulo.
+mirtillo - Piccolo frutto di bosco di colore blu scuro, ricco di antiossidanti.
+ciliegia - Piccolo frutto rotondo e succoso, di colore rosso o scuro.
+noce - Frutto secco con guscio duro e un gheriglio commestibile.
+nocciola - Frutto secco con guscio liscio e un gheriglio commestibile.
+mandorla - Seme commestibile contenuto nel guscio di un frutto a drupa.
+castagna - Frutto autunnale con guscio spinoso e polpa farinosa.
+carota - Ortaggio a radice di colore arancione, croccante e dolce.
+pomodoro - Ortaggio a frutto rosso e succoso, molto usato in cucina.
+insalata - Insieme di foglie di diverse piante commestibili, consumate crude.
+zucchina - Ortaggio estivo allungato, di colore verde o giallo.
+melanzana - Ortaggio dal frutto viola scuro e spugnoso.
+peperone - Ortaggio a frutto cavo, disponibile in vari colori (rosso, giallo, verde).
+cavolo - Ortaggio a foglie larghe, disponibile in diverse varietà.
+broccolo - Ortaggio con infiorescenze verdi commestibili.
+cetriolo - Ortaggio allungato con buccia verde e polpa acquosa.
 Nomi di città italiane
-Roma
-Milano
-Napoli
-Torino
-Palermo
-Genova
-Bologna
-Firenze
-Bari
-Catania
-Venezia
-Verona
-Messina
-Padova
-Trieste
-Taranto
-Brescia
-Prato
-Parma
-Modena
-Reggio
-Perugia
-Livorno
-Ravenna
-Cagliari
-Foggia
-Rimini
-Ferrara
-Salerno
-Sassari
-Latina
-Giugliano
-Monza
-Siracusa
-Pescara
-Bergamo
-Trento
-Forlì
-Vicenza
-Terni
-Bolzano
-Piacenza
-Ancona
-Lecce
-Cosenza
-Potenza
-Novara
-Grosseto
-Pisa
-Varese
+Roma - Capitale d'Italia, città storica con monumenti iconici come il Colosseo e il Vaticano.
+Milano - Città metropolitana del nord Italia, capitale della moda e della finanza.
+Napoli - Grande città del sud Italia, nota per la sua storia, la pizza e il Vesuvio.
+Torino - Città elegante del nord-ovest, ex capitale d'Italia e importante centro industriale.
+Palermo - Capoluogo della Sicilia, città con una ricca storia e cultura mediterranea.
+Genova - Importante città portuale del nord Italia, con un centro storico affascinante.
+Bologna - Città universitaria dell'Emilia-Romagna, famosa per i suoi portici e la cucina.
+Firenze - Capitale della Toscana, culla del Rinascimento e ricca di opere d'arte.
+Bari - Capoluogo della Puglia, importante porto sull'Adriatico e città con una vivace vita culturale.
+Catania - Seconda città della Sicilia, situata ai piedi dell'Etna.
+Venezia - Città unica costruita su una laguna, famosa per i suoi canali e ponti.
+Verona - Città veneta resa celebre dalla storia di Romeo e Giulietta e dalla sua Arena romana.
+Messina - Città siciliana sullo stretto che la separa dalla Calabria.
+Padova - Città veneta con una prestigiosa università e importanti opere d'arte.
+Trieste - Città del Friuli-Venezia Giulia con una storia mitteleuropea e affacciata sul mare.
+Taranto - Città pugliese con un importante porto e una storia millenaria.
+Brescia - Città lombarda con un ricco patrimonio storico e artistico.
+Prato - Città toscana con una forte tradizione industriale nel settore tessile.
+Parma - Città emiliana famosa per la sua architettura, la musica e i prodotti alimentari.
+Modena - Città emiliana nota per i motori (Ferrari, Maserati, Lamborghini) e l'aceto balsamico.
+Reggio - (Solitamente Reggio Emilia o Reggio Calabria) Importanti città con storie distinte.
+Perugia - Capoluogo dell'Umbria, città collinare con un centro storico medievale.
+Livorno - Importante città portuale della Toscana sul Mar Tirreno.
+Ravenna - Città romagnola famosa per i suoi mosaici bizantini patrimonio dell'UNESCO.
+Cagliari - Capoluogo della Sardegna, città con una lunga storia e belle spiagge.
+Foggia - Città della Puglia, importante centro agricolo.
+Rimini - Città romagnola sulla costa adriatica, famosa per il turismo balneare.
+Ferrara - Città emiliana con un centro storico rinascimentale patrimonio dell'UNESCO.
+Salerno - Città campana con un importante porto e una storia legata alla Scuola Medica Salernitana.
+Sassari - Seconda città della Sardegna, importante centro culturale ed economico.
+Latina - Città del Lazio fondata in epoca fascista.
+Giugliano - (Solitamente Giugliano in Campania) Grande comune nella città metropolitana di Napoli.
+Monza - Città lombarda famosa per il suo autodromo di Formula 1.
+Siracusa - Città siciliana con importanti vestigia dell'antica Grecia.
+Pescara - Città abruzzese sulla costa adriatica, importante centro turistico.
+Bergamo - Città lombarda divisa in Città Alta (storica) e Città Bassa (moderna).
+Trento - Capoluogo del Trentino-Alto Adige, città con una storia legata al Concilio di Trento.
+Forlì - Città romagnola con un centro storico di origine romana.
+Vicenza - Città veneta con numerose ville palladiane patrimonio dell'UNESCO.
+Terni - Città umbra con un importante polo industriale.
+Bolzano - Città del Trentino-Alto Adige con una forte influenza culturale tedesca.
+Piacenza - Città emiliana situata alla confluenza del Po e del Trebbia.
+Ancona - Città marchigiana con un importante porto sull'Adriatico.
+Lecce - Città pugliese nota per la sua architettura barocca ("il barocco leccese").
+Cosenza - Città calabrese situata alla confluenza di due fiumi.
+Potenza - Capoluogo della Basilicata, città situata in una zona collinare.
+Novara - Città piemontese importante per la produzione di riso.
+Grosseto - Città toscana capoluogo della Maremma.
+Pisa - Città toscana famosa per la sua Torre Pendente.
+Varese - Città lombarda situata ai piedi delle Prealpi, nota per i suoi laghi.
 Aggettivi
-bello
-brutto
-alto
-basso
-magro
-grasso
-forte
-debole
-giovane
-vecchio
-nuovo
-antico
-rapido
-lento
-lungo
-corto
-caldo
-freddo
-dolce
-amaro
-salato
-acido
-chiaro
-scuro
-felice
-triste
-ricco
-povero
-duro
-morbido
-pesante
-leggero
-sporco
-pulito
-umido
-secco
-stretto
-largo
-tondo
-quadrato
-tranquillo
-rumoroso
-gentile
-cattivo
-buono
-saggio
-sciocco
-allegro
-noioso
-vivace
+bello - Che suscita piacere estetico, gradevole alla vista.
+brutto - Che non suscita piacere estetico, sgradevole alla vista.
+alto - Che si estende notevolmente verso l'alto, di grande elevazione.
+basso - Che si estende poco verso l'alto, di scarsa elevazione.
+magro - Con poca carne o grasso nel corpo, snello.
+grasso - Con molta carne o grasso nel corpo, corpulento.
+forte - Che ha molta forza fisica o morale, vigoroso.
+debole - Che ha poca forza fisica o morale, fragile.
+giovane - Che ha poca età, nella prima parte della vita.
+vecchio - Che ha molta età, nella fase avanzata della vita.
+nuovo - Fatto o esistente da poco tempo, non usato precedentemente.
+antico - Esistente da molto tempo, appartenente a epoche passate.
+rapido - Che si muove o agisce con grande velocità, veloce.
+lento - Che si muove o agisce con poca velocità, pigro.
+lungo - Che ha una notevole estensione nello spazio o nel tempo.
+corto - Che ha poca estensione nello spazio o nel tempo.
+caldo - Che ha una temperatura elevata, che produce o trasmette calore.
+freddo - Che ha una temperatura bassa, che non produce o trasmette calore.
+dolce - Che ha un sapore simile a quello dello zucchero o del miele.
+amaro - Che ha un sapore aspro e sgradevole.
+salato - Che contiene sale o ha un sapore simile a quello del sale.
+acido - Che ha un sapore aspro e pungente, simile a quello del limone o dell'aceto.
+chiaro - Con molta luce, facile da vedere o da capire.
+scuro - Con poca luce, difficile da vedere o da capire.
+felice - Che prova o manifesta gioia e contentezza.
+triste - Che prova o manifesta dolore e malinconia.
+ricco - Che possiede molti beni materiali o qualità positive.
+povero - Che possiede pochi beni materiali o qualità positive.
+duro - Che offre molta resistenza alla pressione o al taglio, non morbido.
+morbido - Che offre poca resistenza alla pressione o al taglio, non duro.
+pesante - Che ha un peso notevole, difficile da sollevare.
+leggero - Che ha un peso scarso, facile da sollevare.
+sporco - Coperto di impurità, non pulito.
+pulito - Privo di impurità, non sporco.
+umido - Leggermente bagnato, con una certa quantità di vapore acqueo.
+secco - Privo di umidità, non bagnato.
+stretto - Di dimensioni ridotte in larghezza, che non lascia molto spazio.
+largo - Di dimensioni ampie in larghezza, che lascia molto spazio.
+tondo - Che ha la forma di un cerchio o di una sfera.
+quadrato - Che ha la forma di un quadrato, con quattro lati uguali e quattro angoli retti.
+tranquillo - Calmo, sereno, privo di agitazione o rumore.
+rumoroso - Che produce molto rumore.
+gentile - Cortese, educato, premuroso verso gli altri.
+cattivo - Malvagio, che ha intenzioni o comportamenti negativi.
+buono - Morale, onesto, che ha intenzioni o comportamenti positivi.
+saggio - Che dimostra saggezza, prudenza e buon senso.
+sciocco - Che dimostra poca intelligenza o giudizio, stupido.
+allegro - Che prova o manifesta gioia e vivacità.
+noioso - Che provoca noia, monotono e privo di interesse.
+vivace - Pieno di energia e vitalità, animato.
 Verbi
-amare
-odiare
-dormire
-mangiare
-bere
-leggere
-scrivere
-correre
-camminare
-saltare
-parlare
-ascoltare
-vedere
-guardare
-sentire
-toccare
-cucinare
-lavare
-pulire
-aprire
-chiudere
-accendere
-spegnere
-tagliare
-costruire
-distruggere
-giocare
-vincere
-perdere
-pensare
-capire
-sapere
-volere
-dovere
-potere
-restare
-partire
-arrivare
-tornare
-comprare
-vendere
-imparare
-insegnare
-cambiare
-scegliere
-ricordare
-dimenticare
-entrare
-uscire
-aspettare
+amare - Provare un forte sentimento di affetto e attaccamento verso qualcuno o qualcosa.
+odiare - Provare un forte sentimento di avversione e ostilità verso qualcuno o qualcosa.
+dormire - Trovarsi in uno stato di riposo fisico e mentale, generalmente con gli occhi chiusi.
+mangiare - Introdurre cibo nella bocca e deglutirlo per nutrirsi.
+bere - Introdurre liquidi nella bocca e deglutirli per idratarsi.
+leggere - Esaminare e interpretare segni scritti.
+scrivere - Tracciare segni su una superficie per comunicare o registrare informazioni.
+correre - Muoversi rapidamente a piedi, con i piedi che si staccano alternativamente dal suolo.
+camminare - Muoversi a piedi a una velocità moderata, con un piede sempre a contatto con il suolo.
+saltare - Staccarsi da terra con uno o entrambi i piedi e sollevarsi in aria.
+parlare - Esprimersi a parole, comunicare verbalmente.
+ascoltare - Prestare attenzione ai suoni.
+vedere - Percepire con gli occhi.
+guardare - Fissare lo sguardo su qualcosa o qualcuno.
+sentire - Percepire suoni, odori, sapori o sensazioni tattili.
+toccare - Entrare in contatto fisico con qualcosa o qualcuno.
+cucinare - Preparare il cibo per il consumo attraverso la cottura.
+lavare - Pulire con acqua o altro liquido.
+pulire - Rimuovere lo sporco o le impurità.
+aprire - Togliere ciò che ostruisce un passaggio o un contenitore.
+chiudere - Mettere qualcosa a sigillare o bloccare un passaggio o un contenitore.
+accendere - Far funzionare un dispositivo che produce luce, calore o movimento.
+spegnere - Interrompere il funzionamento di un dispositivo acceso.
+tagliare - Dividere o separare con uno strumento affilato.
+costruire - Realizzare o assemblare qualcosa.
+distruggere - Ridurre in pezzi o rendere inutilizzabile.
+giocare - Divertirsi svolgendo un'attività ricreativa.
+vincere - Ottenere la vittoria in una competizione o conflitto.
+perdere - Non riuscire a vincere o a mantenere qualcosa.
+pensare - Formare idee o opinioni nella mente.
+capire - Afferrare il significato di qualcosa.
+sapere - Avere conoscenza o consapevolezza di qualcosa.
+volere - Desiderare o avere l'intenzione di fare qualcosa.
+dovere - Essere obbligato a fare qualcosa per legge, morale o necessità.
+potere - Avere la capacità o la possibilità di fare qualcosa.
+restare - Rimanere in un luogo o in una condizione.
+partire - Andare via da un luogo.
+arrivare - Giungere a destinazione.
+tornare - Ritornare al punto di partenza o a un luogo precedente.
+comprare - Acquistare qualcosa pagando un prezzo.
+vendere - Cedere la proprietà di qualcosa in cambio di denaro.
+imparare - Acquisire conoscenza o abilità attraverso lo studio o l'esperienza.
+insegnare - Trasmettere conoscenza o abilità a qualcuno.
+cambiare - Rendere diverso, modificare.
+scegliere - Selezionare tra diverse opzioni.
+ricordare - Riportare alla mente qualcosa del passato.
+dimenticare - Non ricordare più qualcosa.
+entrare - Passare dall'esterno all'interno di un luogo.
+uscire - Passare dall'interno all'esterno di un luogo.
+aspettare - Rimanere in un luogo o in uno stato fino a quando non accade qualcosa.
 Oggetti di uso quotidiano
-tavolo
-sedia
-letto
-armadio
-specchio
-lampada
-tappeto
-divano
-cuscino
-coperta
-tenda
-lavatrice
-frigorifero
-fornello
-lavandino
-doccia
-vasca
-sapone
-spazzolino
-dentifricio
-pettine
-forbici
-asciugamano
-carta
-penna
-matita
-gomma
-quaderno
-zaino
-orologio
-occhiali
-telefono
-computer
-tastiera
-mouse
-televisore
-telecomando
-chiavi
-portafoglio
-borsa
-ombrello
-cappello
-giacca
-maglia
-pantaloni
-scarpe
-calze
-cintura
-fazzoletto
-moneta
+tavolo - Mobile con una superficie piana e gambe, usato per appoggiare oggetti o mangiare.
+sedia - Sedile individuale con uno schienale e generalmente quattro gambe.
+letto - Mobile imbottito o con una struttura per dormire.
+armadio - Mobile alto con ante e ripiani per riporre vestiti e altri oggetti.
+specchio - Superficie liscia e riflettente che riproduce le immagini.
+lampada - Apparecchio che produce luce artificiale.
+tappeto - Rivestimento per il pavimento fatto di tessuto spesso.
+divano - Sedile imbottito e lungo con uno schienale e braccioli, per più persone.
+cuscino - Imbottitura morbida usata per appoggiare la testa o altre parti del corpo.
+coperta - Indumento di tessuto spesso usato per riscaldarsi mentre si dorme.
+tenda - Pannello di tessuto appeso a una finestra o a una porta per oscurare o decorare.
+lavatrice - Elettrodomestico per lavare la biancheria.
+frigorifero - Elettrodomestico per conservare il cibo a basse temperature.
+fornello - Apparecchio per cucinare il cibo tramite calore.
+lavandino - Vasca con rubinetto per lavarsi le mani, i piatti, ecc.
+doccia - Impianto per lavarsi il corpo con un getto d'acqua.
+vasca - Contenitore grande e profondo per fare il bagno.
+sapone - Prodotto per la pulizia personale o della casa.
+spazzolino - Piccolo strumento con setole per pulire i denti.
+dentifricio - Pasta usata con lo spazzolino per pulire i denti.
+pettine - Strumento con denti per districare e ordinare i capelli.
+forbici - Strumento con due lame incrociate per tagliare.
+asciugamano - Pezzo di tessuto assorbente usato per asciugarsi.
+carta - Materiale sottile e piatto usato per scrivere, disegnare, ecc.
+penna - Strumento per scrivere con inchiostro.
+matita - Strumento per scrivere o disegnare con una mina di grafite.
+gomma - Oggetto di materiale elastico per cancellare segni di matita.
+quaderno - Insieme di fogli di carta rilegati, usato per scrivere.
+zaino - Borsa da portare sulla schiena con due spallacci.
+orologio - Strumento per misurare e indicare l'ora.
+occhiali - Lenti montate su una struttura per migliorare la vista o proteggere gli occhi.
+telefono - Apparecchio per comunicare a distanza tramite la voce.
+computer - Dispositivo elettronico per elaborare dati.
+tastiera - Dispositivo con tasti per inserire testo e comandi in un computer.
+mouse - Dispositivo manuale per controllare il cursore sullo schermo di un computer.
+televisore - Apparecchio elettronico per visualizzare immagini in movimento e suoni.
+telecomando - Dispositivo per controllare a distanza un apparecchio elettronico.
+chiavi - Oggetti metallici sagomati per aprire o chiudere serrature.
+portafoglio - Piccolo contenitore per tenere denaro e documenti.
+borsa - Contenitore portatile per trasportare oggetti personali.
+ombrello - Strumento pieghevole per ripararsi dalla pioggia o dal sole.
+cappello - Indumento per coprire la testa.
+giacca - Indumento esterno con maniche, aperto sul davanti.
+maglia - Indumento di tessuto leggero che copre il busto e le braccia.
+pantaloni - Indumento che copre le gambe separatamente, dalla vita alle caviglie o più corto.
+scarpe - Calzature che proteggono i piedi.
+calze - Indumenti di maglia che coprono i piedi e parte della gamba.
+cintura - Striscia di materiale flessibile da indossare intorno alla vita per sostenere i pantaloni o come ornamento.
+fazzoletto - Piccolo pezzo di tessuto usato per soffiarsi il naso o asciugare il sudore.
+moneta - Pezzo di metallo di valore stabilito, usato come mezzo di pagamento.
 Parti del corpo
-testa
-viso
-occhi
-naso
-bocca
-orecchie
-capelli
-mento
-collo
-spalle
-braccia
-mani
-dita
-unghie
-gomiti
-polsi
-torace
-petto
-cuore
-polmoni
-stomaco
-fegato
-reni
-schiena
-spina
-fianchi
-bacino
-gambe
-ginocchia
-caviglie
-piedi
-tallone
-muscoli
-ossa
-pelle
-sangue
-nervi
-cervello
-denti
-lingua
-labbra
-palpebre
-sopracciglia
-ciglia
-polpastrelli
-addome
-ombelico
-clavicola
-tendini
-cartilagine
+testa - Parte superiore del corpo umano che contiene il cervello, gli occhi, il naso, la bocca e le orecchie.
+viso - Parte anteriore della testa, comprendente occhi, naso, bocca e guance.
+occhi - Organi della vista.
+naso - Organo dell'olfatto e parte delle vie respiratorie superiori.
+bocca - Apertura nel viso usata per mangiare, parlare e respirare.
+orecchie - Organi dell'udito e dell'equilibrio.
+capelli - Filamenti che crescono sulla testa.
+mento - Parte inferiore del viso, sotto la bocca.
+collo - Parte del corpo che connette la testa al busto.
+spalle - Parte superiore del busto dove si attaccano le braccia.
+braccia - Arti superiori del corpo umano, dalle spalle alle mani.
+mani - Estremità delle braccia, usate per afferrare e manipolare oggetti.
+dita - Estremità delle mani e dei piedi.
+unghie - Placche dure che proteggono l'estremità delle dita.
+gomiti - Articolazioni tra la parte superiore e inferiore del braccio.
+polsi - Articolazioni tra l'avambraccio e la mano.
+torace - Parte superiore del busto che contiene cuore e polmoni.
+petto - Parte anteriore del torace.
+cuore - Organo muscolare che pompa il sangue in tutto il corpo.
+polmoni - Organi principali della respirazione.
+stomaco - Organo dell'apparato digerente dove il cibo viene parzialmente digerito.
+fegato - Grande organo che svolge molte funzioni vitali, tra cui la produzione di bile.
+reni - Organi che filtrano il sangue e producono urina.
+schiena - Parte posteriore del corpo, dalle spalle ai fianchi.
+spina - Colonna vertebrale che sostiene il corpo.
+fianchi - Parte laterale del corpo tra le costole e il bacino.
+bacino - Struttura ossea a forma di anello alla base della colonna vertebrale.
+gambe - Arti inferiori del corpo umano, dai fianchi ai piedi.
+ginocchia - Articolazioni tra la coscia e la gamba.
+caviglie - Articolazioni tra la gamba e il piede.
+piedi - Estremità delle gambe, usate per camminare e stare in piedi.
+tallone - Parte posteriore del piede sotto la caviglia.
+muscoli - Tessuti contrattili che permettono il movimento.
+ossa - Strutture dure che formano lo scheletro.
+pelle - Rivestimento esterno del corpo.
+sangue - Fluido che circola nel corpo e trasporta ossigeno e nutrienti.
+nervi - Fibre che trasmettono segnali tra il cervello e il resto del corpo.
+cervello - Organo principale del sistema nervoso, responsabile del pensiero e del controllo del corpo.
+denti - Strutture dure nella bocca usate per masticare il cibo.
+lingua - Organo muscolare nella bocca usato per il gusto, la parola e la deglutizione.
+labbra - Bordi carnosi che circondano la bocca.
+palpebre - Pliche di pelle che proteggono gli occhi.
+sopracciglia - Strisce di peli sopra gli occhi.
+ciglia - Peli che crescono sul bordo delle palpebre.
+polpastrelli - Estremità carnose delle dita.
+addome - Parte del corpo tra il torace e il bacino.
+ombelico - Cicatrice sulla pancia dove era attaccato il cordone ombelicale.
+clavicola - Osso lungo e sottile che collega lo sterno alla scapola.
+tendini - Fasci di tessuto connettivo che collegano i muscoli alle ossa.
+cartilagine - Tessuto connettivo flessibile presente in varie parti del corpo.
 Mestieri e professioni
-medico
-infermiere
-dentista
-chirurgo
-avvocato
-giudice
-ingegnere
-architetto
-muratore
-idraulico
-elettricista
-falegname
-meccanico
-fabbro
-sarto
-parrucchiere
-cuoco
-cameriere
-barista
-macellaio
-fornaio
-contadino
-pescatore
-pilota
-autista
-tassista
-postino
-poliziotto
-pompiere
-insegnante
-professore
-bidello
-giornalista
-scrittore
-attore
-regista
-musicista
-cantante
-pittore
-scultore
-fotografo
-stilista
-atleta
-allenatore
-arbitro
-politico
-sindaco
-ministro
-ambasciatore
-impiegato
+medico - Professionista della salute che diagnostica e cura malattie.
+infermiere - Professionista della salute che assiste i pazienti e fornisce cure mediche.
+dentista - Professionista della salute che si occupa della cura dei denti e della bocca.
+chirurgo - Medico specializzato in interventi chirurgici.
+avvocato - Professionista legale che consiglia e rappresenta i clienti in questioni legali.
+giudice - Ufficiale pubblico che presiede un tribunale e prende decisioni legali.
+ingegnere - Professionista che progetta, sviluppa e costruisce strutture, macchine o sistemi.
+architetto - Professionista che progetta edifici e spazi urbani.
+muratore - Operaio edile specializzato nella costruzione di muri e altre strutture in muratura.
+idraulico - Artigiano che si occupa dell'installazione e riparazione di impianti idraulici.
+elettricista - Artigiano che si occupa dell'installazione e riparazione di impianti elettrici.
+falegname - Artigiano che lavora il legno per costruire o riparare oggetti.
+meccanico - Tecnico specializzato nella riparazione e manutenzione di veicoli e macchinari.
+fabbro - Artigiano che lavora il ferro battuto.
+sarto - Artigiano che confeziona o ripara vestiti su misura.
+parrucchiere - Professionista che taglia, acconcia e cura i capelli.
+cuoco - Persona che prepara il cibo per essere mangiato.
+cameriere - Persona che serve cibo e bevande ai clienti in un ristorante o bar.
+barista - Persona che prepara e serve bevande in un bar.
+macellaio - Persona che taglia e vende carne.
+fornaio - Persona che cuoce il pane e altri prodotti da forno.
+contadino - Persona che coltiva la terra e alleva animali.
+pescatore - Persona che cattura pesci e altri animali acquatici.
+pilota - Persona che guida un aeromobile.
+autista - Persona che guida un veicolo terrestre.
+tassista - Autista di un taxi che trasporta passeggeri a pagamento.
+postino - Persona che consegna la posta.
+poliziotto - Membro delle forze dell'ordine responsabile del mantenimento della legge e dell'ordine.
+pompiere - Membro dei vigili del fuoco responsabile dello spegnimento degli incendi e del soccorso.
+insegnante - Persona che istruisce gli studenti in una scuola.
+professore - Insegnante di livello universitario.
+bidello - Persona che si occupa della manutenzione e della pulizia di una scuola o altro edificio.
+giornalista - Persona che raccoglie e pubblica notizie.
+scrittore - Persona che scrive libri, articoli o altri testi.
+attore - Persona che interpreta un ruolo in un'opera teatrale, un film o una serie televisiva.
+regista - Persona che dirige la realizzazione di un film, di un'opera teatrale o di un programma televisivo.
+musicista - Persona che suona uno strumento musicale o compone musica.
+cantante - Persona che canta.
+pittore - Artista che crea opere d'arte usando la pittura.
+scultore - Artista che crea opere d'arte tridimensionali scolpendo o modellando materiali.
+fotografo - Persona che scatta fotografie.
+stilista - Persona che disegna e crea abiti e accessori di moda.
+atleta - Persona che pratica uno sport a livello competitivo.
+allenatore - Persona che istruisce e guida gli atleti.
+arbitro - Persona che fa rispettare le regole in una competizione sportiva.
+politico - Persona che si occupa di politica, spesso come rappresentante eletto.
+sindaco - Capo dell'amministrazione comunale di una città.
+ministro - Membro del governo responsabile di un particolare settore.
+ambasciatore - Rappresentante diplomatico di uno stato presso un altro stato.
+impiegato - Persona che lavora in un ufficio svolgendo mansioni amministrative.
 Sentimenti ed emozioni
-amore
-odio
-gioia
-tristezza
-paura
-rabbia
-ansia
-stress
-felicità
-delusione
-sorpresa
-noia
-vergogna
-orgoglio
-soddisfazione
-nostalgia
-gelosia
-invidia
-coraggio
-timidezza
-sicurezza
-insicurezza
-compassione
-affetto
-malinconia
-gratitudine
-disperazione
-sollievo
-entusiasmo
-frustrazione
-fiducia
-diffidenza
-serenità
-inquietudine
-euforia
-rancore
-altruismo
-egoismo
-tenerezza
-risentimento
-stupore
-dolcezza
-rancore
-pentimento
-collera
-disagio
-pietà
-empatia
-sdegno
-rimorso
+amore - Forte sentimento di affetto, cura e attaccamento verso qualcuno o qualcosa.
+odio - Forte sentimento di avversione, ostilità e repulsione verso qualcuno o qualcosa.
+gioia - Intensa sensazione di piacere e felicità.
+tristezza - Stato emotivo caratterizzato da dolore, malinconia e infelicità.
+paura - Emozione suscitata dalla percezione di un pericolo o di una minaccia.
+rabbia - Forte sentimento di irritazione, frustrazione e ostilità.
+ansia - Stato di preoccupazione, nervosismo e apprensione.
+stress - Stato di tensione fisica o emotiva causato da situazioni difficili.
+felicità - Stato di benessere e contentezza duratura.
+delusione - Sentimento di tristezza e frustrazione causato dalla mancata realizzazione di aspettative.
+sorpresa - Emozione suscitata da qualcosa di inaspettato.
+noia - Stato di mancanza di interesse o di stimoli.
+vergogna - Sentimento di imbarazzo e umiliazione causato da una propria azione o condizione.
+orgoglio - Sentimento di soddisfazione per i propri risultati o qualità.
+soddisfazione - Sensazione di appagamento e contentezza per qualcosa che è andato bene.
+nostalgia - Desiderio malinconico per qualcosa del passato.
+gelosia - Sentimento di risentimento verso qualcuno che possiede qualcosa che si desidera o verso un rivale in amore.
+invidia - Sentimento di risentimento verso qualcuno che ha qualcosa di desiderabile.
+coraggio - Capacità di affrontare situazioni difficili o pericolose senza paura eccessiva.
+timidezza - Tendenza ad essere riservati e a disagio in situazioni sociali.
+sicurezza - Sensazione di fiducia e stabilità.
+insicurezza - Mancanza di fiducia in sé stessi o in qualcosa.
+compassione - Sentimento di comprensione e partecipazione al dolore altrui.
+affetto - Sentimento di tenerezza e benevolenza verso qualcuno.
+malinconia - Stato di tristezza pensierosa e vaga.
+gratitudine - Sentimento di riconoscenza per un beneficio ricevuto.
+disperazione - Perdita totale di speranza.
+sollievo - Sensazione di liberazione da un peso o da una preoccupazione.
+entusiasmo - Forte eccitazione e interesse per qualcosa.
+frustrazione - Sentimento di insoddisfazione e impotenza causato da ostacoli.
+fiducia - Credere nella capacità o nella sincerità di qualcuno o qualcosa.
+diffidenza - Mancanza di fiducia, sospetto.
+serenità - Stato di calma e pace interiore.
+inquietudine - Stato di agitazione e preoccupazione.
+euforia - Stato di intensa felicità ed eccitazione.
+rancore - Sentimento di risentimento persistente.
+altruismo - Tendenza ad agire per il bene degli altri senza aspettarsi nulla in cambio.
+egoismo - Tendenza a pensare principalmente ai propri interessi.
+tenerezza - Sentimento di affetto delicato e dolce.
+risentimento - Sentimento di offesa e rancore per un torto subito.
+stupore - Sensazione di meraviglia e sorpresa.
+dolcezza - Qualità di essere gentile, affettuoso e piacevole.
+rancore - (Ripetizione) Sentimento di risentimento persistente.
+pentimento - Sentimento di rimorso per aver fatto qualcosa di sbagliato.
+collera - Forte rabbia.
+disagio - Sensazione di malessere fisico o emotivo.
+pietà - Sentimento di tristezza e compassione per la sofferenza altrui.
+empatia - Capacità di comprendere e condividere i sentimenti degli altri.
+sdegno - Sentimento di indignazione e disprezzo per qualcosa di ritenuto ingiusto o indegno.
+rimorso - Sentimento di profondo pentimento per un'azione passata.
 Elementi naturali e fenomeni atmosferici
-sole
-luna
-stelle
-cielo
-nuvole
-pioggia
-neve
-grandine
-vento
-temporale
-fulmine
-tuono
-arcobaleno
-alba
-tramonto
-mare
-oceano
-lago
-fiume
-cascata
-montagna
-collina
-pianura
-deserto
-foresta
-giungla
-bosco
-vulcano
-ghiacciaio
-isola
-spiaggia
-sabbia
-scoglio
-ruscello
-sorgente
-grotta
-prato
-campo
-radura
-argilla
-minerale
-gemma
-carbone
-petrolio
-fossile
-meteorite
-nebulosa
-galassia
-universo
-atmosfera
+sole - Stella al centro del nostro sistema solare che fornisce luce e calore.
+luna - Satellite naturale della Terra.
+stelle - Corpi celesti luminosi visibili di notte.
+cielo - Spazio sopra la superficie terrestre dove si trovano sole, luna e stelle.
+nuvole - Masse visibili di vapore acqueo condensato nell'atmosfera.
+pioggia - Precipitazione di acqua sotto forma di gocce.
+neve - Precipitazione di cristalli di ghiaccio.
+grandine - Precipitazione di chicchi di ghiaccio.
+vento - Movimento dell'aria.
+temporale - Fenomeno atmosferico caratterizzato da pioggia intensa, tuoni e fulmini.
+fulmine - Scarica elettrica luminosa nell'atmosfera.
+tuono - Suono prodotto dall'espansione rapida dell'aria riscaldata da un fulmine.
+arcobaleno - Fenomeno ottico che appare nel cielo come un arco di colori quando la luce del sole colpisce le goccioline d'acqua.
+alba - Momento in cui il sole sorge all'orizzonte.
+tramonto - Momento in cui il sole scende sotto l'orizzonte.
+mare - Grande massa di acqua salata che copre la maggior parte della superficie terrestre.
+oceano - Vasta distesa di acqua salata che separa i continenti.
+lago - Grande massa di acqua dolce circondata dalla terra.
+fiume - Corso d'acqua naturale che scorre verso un mare, un lago o un altro fiume.
+cascata - Caduta verticale di acqua da un'altezza.
+montagna - Grande elevazione naturale della superficie terrestre.
+collina - Elevazione naturale del terreno più bassa di una montagna.
+pianura - Vasta area di terreno piatto e uniforme.
+deserto - Vasta area arida con scarsa vegetazione.
+foresta - Vasta area coperta da alberi.
+giungla - Foresta tropicale fitta e intricata.
+bosco - Area di terreno coperta da alberi, più piccola di una foresta.
+vulcano - Montagna con un'apertura attraverso la quale possono fuoriuscire lava, cenere e gas.
+ghiacciaio - Grande massa di ghiaccio in movimento.
+isola - Porzione di terra circondata completamente dall'acqua.
+spiaggia - Striscia di sabbia o ciottoli lungo la riva del mare o di un lago.
+sabbia - Insieme di piccole particelle di roccia e minerali.
+scoglio - Roccia isolata che emerge dall'acqua.
+ruscello - Piccolo corso d'acqua corrente.
+sorgente - Punto in cui l'acqua sotterranea affiora in superficie.
+grotta - Cavità naturale nel terreno o nella roccia.
+prato - Area di terreno coperta da erba.
+campo - Area di terreno coltivato o destinato al pascolo.
+radura - Area aperta in un bosco o in una foresta.
+argilla - Tipo di terreno fine e appiccicoso quando è bagnato.
+minerale - Sostanza inorganica naturale con una composizione chimica definita.
+gemma - Minerale pregiato tagliato e lucidato, usato in gioielleria.
+carbone - Roccia sedimentaria combustibile formata da resti vegetali.
+petrolio - Liquido infiammabile di origine naturale, usato come combustibile.
+fossile - Resto o traccia di un organismo vissuto in epoche geologiche passate.
+meteorite - Frammento di un corpo celeste che è sopravvissuto al passaggio attraverso l'atmosfera terrestre e ha raggiunto la superficie.
+nebulosa - Nuvola interstellare di gas e polveri.
+galassia - Vasto sistema di stelle, gas, polveri e materia oscura tenuti insieme dalla gravità.
+universo - Tutto lo spazio e il tempo e il loro contenuto, inclusi pianeti, stelle, galassie e tutte le altre forme di materia ed energia.
+atmosfera - Involucro gassoso che circonda un corpo celeste, come la Terra.

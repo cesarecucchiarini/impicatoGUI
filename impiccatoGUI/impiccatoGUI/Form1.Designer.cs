@@ -282,6 +282,7 @@
             // 
             // combox_indizio
             // 
+            combox_indizio.DropDownStyle = ComboBoxStyle.DropDownList;
             combox_indizio.FormattingEnabled = true;
             combox_indizio.Items.AddRange(new object[] { "prima lettera", "ultima lettera", "tema" });
             combox_indizio.Location = new Point(613, 214);
@@ -310,7 +311,7 @@
             // 
             // pbox_impiccato
             // 
-            pbox_impiccato.Location = new Point(25, 258);
+            pbox_impiccato.Location = new Point(29, 258);
             pbox_impiccato.Name = "pbox_impiccato";
             pbox_impiccato.Size = new Size(215, 180);
             pbox_impiccato.SizeMode = PictureBoxSizeMode.StretchImage;

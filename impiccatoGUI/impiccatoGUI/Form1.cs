@@ -2,6 +2,45 @@ namespace impiccatoGUI
 {
     public partial class Form1 : Form
     {
+        public void fine()
+        {
+            this.Controls.Clear();
+            Label lbl_sconfitta = new Label();
+            lbl_sconfitta.Font = new Font("Arial", 30);
+            lbl_sconfitta.Text = "Hai perso";
+            lbl_sconfitta.Location = new Point(300, 156);
+            lbl_sconfitta.AutoSize = true;
+            this.Controls.Add(lbl_sconfitta);
+            Button btn_chiudi = new Button();
+            btn_chiudi.Location = new Point(324, 299);
+            btn_chiudi.Text = "ciudi";
+            btn_chiudi.Click += btn_chiudi_Click;
+            this.Controls.Add(btn_chiudi);
+            PictureBox pbox_sconfitta = new PictureBox();
+            pbox_sconfitta.Location = new Point(25, 258);
+            pbox_sconfitta.Name = "pbox_impiccato";
+            pbox_sconfitta.Size = new Size(215, 180);
+            pbox_sconfitta.SizeMode = PictureBoxSizeMode.StretchImage;
+            pbox_sconfitta.TabIndex = 35;
+            pbox_sconfitta.TabStop = false;
+            pbox_sconfitta.Image = Image.FromFile(".\\impic\\10Errori.png");
+            this.Controls.Add(pbox_sconfitta);
+        }
+        public void aggiorna()
+        {
+            lbl_usate.Text = usate;
+            lbl_tentativi.Text = tentativi.ToString();
+            lbl_monete.Text = monete.ToString();
+            lbl_jolly.Text = jolly.ToString();
+            lbl_punti.Text = punti.ToString();
+            lbl_segreto.Text = new string(parolaSegreta);
+            tbox_carattere.Text = null;
+            tbox_inserimento.Text = null;
+            cbox_jolly.Checked = false;
+            combox_indizio.Text = null;
+            pbox_impiccato.Image = Image.FromFile(immagini[maxTent - tentativi]);
+        }
+
         Random rnd = new Random();
         int monete = 0, tentativi = 0, punti = 0, maxTent=0;
         bool jolly = false;
@@ -23,28 +62,28 @@ namespace impiccatoGUI
             switch (d)
             {
                 case "facile":
-                    immagini= [
+                    immagini= new string[] {
                         ".\\impic\\0Errori.png", ".\\impic\\1Errori.png", ".\\impic\\2Errori.png", ".\\impic\\3Errori.png"
                     , ".\\impic\\4Errori.png", ".\\impic\\5Errori.png",
                         ".\\impic\\6Errori.png", ".\\impic\\7Errori.png", ".\\impic\\8Errori.png"
-                    , ".\\impic\\9Errori.png", ".\\impic\\10Errori.png"];
+                    , ".\\impic\\9Errori.png", ".\\impic\\10Errori.png" };
                     break;
                 case "medio":
-                    immagini= [
+                    immagini= new string[] {
                         ".\\impic\\0Errori.png", ".\\impic\\1Errori.png", ".\\impic\\2Errori.png", ".\\impic\\3Errori.png"
                     , ".\\impic\\4Errori.png", ".\\impic\\5Errori.png",
-                        ".\\impic\\6Errori.png", ".\\impic\\10Errori.png"];
+                        ".\\impic\\6Errori.png", ".\\impic\\10Errori.png" };
                     break;
                 case "difficile":
-                    immagini = [
+                    immagini = new string[] {
                         ".\\impic\\0Errori.png", ".\\impic\\1Errori.png", ".\\impic\\2Errori.png", ".\\impic\\3Errori.png"
-                    ,  ".\\impic\\5Errori.png", ".\\impic\\10Errori.png"];
+                    ,  ".\\impic\\5Errori.png", ".\\impic\\10Errori.png" };
                     break;
                 default:
-                    immagini = [
+                    immagini = new string[] {
                         ".\\impic\\0Errori.png", ".\\impic\\1Errori.png", ".\\impic\\2Errori.png", ".\\impic\\3Errori.png"
                     , ".\\impic\\4Errori.png", ".\\impic\\5Errori.png",
-                        ".\\impic\\6Errori.png", ".\\impic\\10Errori.png"];
+                        ".\\impic\\6Errori.png", ".\\impic\\10Errori.png" };
                     break;
             }
             jolly = true;
@@ -76,7 +115,7 @@ namespace impiccatoGUI
             {
                 if (Char.IsLetter(tbox_carattere.Text[0]))
                 {
-                    char c = tbox_carattere.Text[0];
+                    char c = tbox_carattere.Text.ToLower()[0];
                     if (!usate.Contains(c))
                     {
                         usate += c;
@@ -100,7 +139,7 @@ namespace impiccatoGUI
             }
             else if (tbox_inserimento.Text.Length > 0)
             {
-                string p = tbox_inserimento.Text;
+                string p = tbox_inserimento.Text.ToLower();
                 if (scelta[1] == p)
                 {
                     parolaSegreta = scelta[1].ToCharArray();
@@ -113,14 +152,15 @@ namespace impiccatoGUI
             }
             else if (cbox_jolly.Checked && jolly)
             {
-                while (true)
+                bool cambio = true;
+                while (cambio)
                 {
-                    int x = rnd.Next(parolaSegreta.Length);
+                    int x = rnd.Next(1,parolaSegreta.Length-1);
                     if (parolaSegreta[x] == '_')
                     {
                         parolaSegreta[x] = scelta[1][x];
                         jolly = false;
-                        break;
+                        cambio = false;
                     }
                 }
             }
@@ -152,17 +192,7 @@ namespace impiccatoGUI
                 }
             }
 
-            lbl_usate.Text = usate;
-            lbl_tentativi.Text = tentativi.ToString();
-            lbl_monete.Text = monete.ToString();
-            lbl_jolly.Text = jolly.ToString();
-            lbl_punti.Text = punti.ToString();
-            lbl_segreto.Text = new string(parolaSegreta);
-            tbox_carattere.Text = null;
-            tbox_inserimento.Text = null;
-            cbox_jolly.Checked = false;
-            combox_indizio.Text = null;
-            pbox_impiccato.Image = Image.FromFile(immagini[maxTent - tentativi]);
+            aggiorna();
 
             if (!parolaSegreta.Contains('_'))
             {
@@ -170,27 +200,7 @@ namespace impiccatoGUI
             }
             else if (tentativi == 0)
             {
-                this.Controls.Clear();
-                Label lbl_sconfitta = new Label();
-                lbl_sconfitta.Font = new Font("Arial", 30);
-                lbl_sconfitta.Text = "Hai perso";
-                lbl_sconfitta.Location = new Point(300, 156);
-                lbl_sconfitta.AutoSize = true;
-                this.Controls.Add(lbl_sconfitta);
-                Button btn_chiudi=new Button();
-                btn_chiudi.Location = new Point(324, 299);
-                btn_chiudi.Text = "ciudi";
-                btn_chiudi.Click += btn_chiudi_Click;
-                this.Controls.Add(btn_chiudi);
-                PictureBox pbox_sconfitta=new PictureBox();
-                pbox_sconfitta.Location = new Point(25, 258);
-                pbox_sconfitta.Name = "pbox_impiccato";
-                pbox_sconfitta.Size = new Size(215, 180);
-                pbox_sconfitta.SizeMode = PictureBoxSizeMode.StretchImage;
-                pbox_sconfitta.TabIndex = 35;
-                pbox_sconfitta.TabStop = false;
-                pbox_sconfitta.Image = Image.FromFile(".\\impic\\10Errori.png");
-                this.Controls.Add(pbox_sconfitta);
+                fine();
             }
         }
 
@@ -199,6 +209,7 @@ namespace impiccatoGUI
             MessageBox.Show("La prossima volta andrà meglio!!");
             this.Close();
         }
+
         private void btn_info_Click(object sender, EventArgs e)
         {
             MessageBox.Show("----questo è l'impiccato----\nPer creare una parola clicca su genera parola.\n" +
