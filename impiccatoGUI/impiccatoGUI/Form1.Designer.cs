@@ -60,6 +60,8 @@
             cbox_descrizione = new CheckBox();
             lbl_descrizione = new Label();
             label15 = new Label();
+            lbox_trovate = new ListBox();
+            label13 = new Label();
             ((System.ComponentModel.ISupportInitialize)pbox_impiccato).BeginInit();
             SuspendLayout();
             // 
@@ -372,11 +374,32 @@
             label15.TabIndex = 40;
             label15.Text = "descrizione:";
             // 
+            // lbox_trovate
+            // 
+            lbox_trovate.FormattingEnabled = true;
+            lbox_trovate.ItemHeight = 15;
+            lbox_trovate.Location = new Point(450, 373);
+            lbox_trovate.Name = "lbox_trovate";
+            lbox_trovate.Size = new Size(120, 49);
+            lbox_trovate.TabIndex = 43;
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.BackColor = SystemColors.ActiveCaption;
+            label13.Location = new Point(465, 355);
+            label13.Name = "label13";
+            label13.Size = new Size(80, 15);
+            label13.TabIndex = 42;
+            label13.Text = "parole trovate";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(lbox_trovate);
+            Controls.Add(label13);
             Controls.Add(lbl_descrizione);
             Controls.Add(label15);
             Controls.Add(cbox_descrizione);
@@ -449,5 +472,7 @@
         private CheckBox cbox_descrizione;
         private Label lbl_descrizione;
         private Label label15;
+        private ListBox lbox_trovate;
+        private Label label13;
     }
 }

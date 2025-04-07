@@ -213,6 +213,7 @@ namespace impiccatoGUI
             if (!parolaSegreta.Contains('_'))
             {
                 btn_invio.Enabled = false;
+                lbox_trovate.Items.Add(lbl_segreto.Text);
             }
             else if (tentativi == 0)
             {
