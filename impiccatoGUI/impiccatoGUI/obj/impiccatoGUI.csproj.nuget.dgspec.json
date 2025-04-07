@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cucchiarini.cesare\\Desktop\\progetti C#\\impicatoGUI\\impiccatoGUI\\impiccatoGUI\\impiccatoGUI.csproj": {}
+    "C:\\Users\\sergi\\OneDrive\\Desktop\\progettiC#\\impicatoGUI\\impiccatoGUI\\impiccatoGUI\\impiccatoGUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cucchiarini.cesare\\Desktop\\progetti C#\\impicatoGUI\\impiccatoGUI\\impiccatoGUI\\impiccatoGUI.csproj": {
+    "C:\\Users\\sergi\\OneDrive\\Desktop\\progettiC#\\impicatoGUI\\impiccatoGUI\\impiccatoGUI\\impiccatoGUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cucchiarini.cesare\\Desktop\\progetti C#\\impicatoGUI\\impiccatoGUI\\impiccatoGUI\\impiccatoGUI.csproj",
+        "projectUniqueName": "C:\\Users\\sergi\\OneDrive\\Desktop\\progettiC#\\impicatoGUI\\impiccatoGUI\\impiccatoGUI\\impiccatoGUI.csproj",
         "projectName": "impiccatoGUI",
-        "projectPath": "C:\\Users\\cucchiarini.cesare\\Desktop\\progetti C#\\impicatoGUI\\impiccatoGUI\\impiccatoGUI\\impiccatoGUI.csproj",
-        "packagesPath": "C:\\Users\\cucchiarini.cesare\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cucchiarini.cesare\\Desktop\\progetti C#\\impicatoGUI\\impiccatoGUI\\impiccatoGUI\\obj\\",
+        "projectPath": "C:\\Users\\sergi\\OneDrive\\Desktop\\progettiC#\\impicatoGUI\\impiccatoGUI\\impiccatoGUI\\impiccatoGUI.csproj",
+        "packagesPath": "C:\\Users\\sergi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sergi\\OneDrive\\Desktop\\progettiC#\\impicatoGUI\\impiccatoGUI\\impiccatoGUI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\cucchiarini.cesare\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sergi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -58,7 +67,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.1.23455.8/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

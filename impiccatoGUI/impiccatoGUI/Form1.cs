@@ -2,6 +2,23 @@ namespace impiccatoGUI
 {
     public partial class Form1 : Form
     {
+        public Form1()
+        {
+            InitializeComponent();
+            for (int i = 0; i < parole.Length / 51; i++)
+            {
+                combox_tema.Items.Add(parole[i * 50 + i]);
+            }
+        }
+
+        Random rnd = new Random();
+        int monete = 0, tentativi = 0, punti = 0, maxTent = 0;
+        bool jolly = false;
+        string usate = "";
+        static string[] scelta = new string[3];
+        string[] parole = File.ReadAllLines("./paroleImpiccatoGUI.txt");
+        char[] parolaSegreta;
+        string[] immagini = null;
         public void fine()
         {
             this.Controls.Clear();
@@ -26,7 +43,7 @@ namespace impiccatoGUI
             pbox_sconfitta.Image = Image.FromFile(".\\impic\\10Errori.png");
             this.Controls.Add(pbox_sconfitta);
         }
-        public void aggiorna()
+        public void aggiornamento()
         {
             lbl_usate.Text = usate;
             lbl_tentativi.Text = tentativi.ToString();
@@ -84,34 +101,33 @@ namespace impiccatoGUI
             pbox_impiccato.Image = Image.FromFile(immagini[0]);
             btn_invio.Enabled = true;
             lbl_descrizione.Text = "";
+            combox_tema.SelectedIndex = -1;
         }
         public void trovaParola()
         {
-            int arg1 = rnd.Next(10);
-            int arg2 = rnd.Next(1, 51);
-            scelta[0] = parole[arg1 * 50 + arg1].ToLower();
-            scelta[1] = parole[arg1 * 50 + arg1 + arg2].ToLower().Split(" - ")[0];
-            scelta[2] = parole[arg1 * 50 + arg1 + arg2].ToLower().Split(" - ")[1];
-        }
-
-        Random rnd = new Random();
-        int monete = 0, tentativi = 0, punti = 0, maxTent=0;
-        bool jolly = false;
-        string usate = "";
-        static string[] scelta = new string[3];
-        string[] parole = File.ReadAllLines("./paroleImpiccatoGUI.txt");
-        char[] parolaSegreta;
-        string[] immagini = null;
-        public Form1()
-        {
-            InitializeComponent();
+            if (combox_tema.SelectedIndex == -1)
+            {
+                int arg1 = rnd.Next(10);
+                int arg2 = rnd.Next(1, 51);
+                scelta[0] = parole[arg1 * 50 + arg1].ToLower();
+                scelta[1] = parole[arg1 * 50 + arg1 + arg2].ToLower().Split(" - ")[0];
+                scelta[2] = parole[arg1 * 50 + arg1 + arg2].ToLower().Split(" - ")[1];
+            }
+            else
+            {
+                int arg1 = combox_tema.SelectedIndex;
+                int arg2 = rnd.Next(1, 51);
+                scelta[0] = parole[arg1 * 50 + arg1].ToLower();
+                scelta[1] = parole[arg1 * 50 + arg1 + arg2].ToLower().Split(" - ")[0];
+                scelta[2] = parole[arg1 * 50 + arg1 + arg2].ToLower().Split(" - ")[1];
+            }
         }
 
         private void btn_parola_Click(object sender, EventArgs e)
         {
-            azzeramento();
-
             trovaParola();
+
+            azzeramento();
 
             parolaSegreta = new char[scelta[1].Length];
             for (int i = 0; i < parolaSegreta.Length; i++)
@@ -167,7 +183,7 @@ namespace impiccatoGUI
                 bool cambio = true;
                 while (cambio)
                 {
-                    int x = rnd.Next(1,parolaSegreta.Length-1);
+                    int x = rnd.Next(1, parolaSegreta.Length - 1);
                     if (parolaSegreta[x] == '_')
                     {
                         parolaSegreta[x] = scelta[1][x];
@@ -179,27 +195,28 @@ namespace impiccatoGUI
             else if (cbox_descrizione.Checked && jolly)
             {
                 lbl_descrizione.Text = scelta[2];
+                jolly = false;
             }
             else if (combox_indizio.Text.Length > 0)
             {
                 switch (combox_indizio.Text)
                 {
                     case "prima lettera":
-                        if (parolaSegreta[0] == '_' && monete>=10)
+                        if (parolaSegreta[0] == '_' && monete >= 10)
                         {
                             monete -= 10;
                             parolaSegreta[0] = scelta[1][0];
                         }
                         break;
                     case "ultima lettera":
-                        if (parolaSegreta[parolaSegreta.Length - 1] == '_' && monete>=5)
+                        if (parolaSegreta[parolaSegreta.Length - 1] == '_' && monete >= 5)
                         {
                             monete -= 5;
                             parolaSegreta[parolaSegreta.Length - 1] = scelta[1][parolaSegreta.Length - 1];
                         }
                         break;
                     case "tema":
-                        if (lbl_tema.Text != scelta[0] && monete>=15)
+                        if (lbl_tema.Text != scelta[0] && monete >= 15)
                         {
                             monete -= 15;
                             lbl_tema.Text = scelta[0];
@@ -208,7 +225,7 @@ namespace impiccatoGUI
                 }
             }
 
-            aggiorna();
+            aggiornamento();
 
             if (!parolaSegreta.Contains('_'))
             {
@@ -227,13 +244,9 @@ namespace impiccatoGUI
             this.Close();
         }
 
-        private void btn_info_Click(object sender, EventArgs e)
+        private void btn_canc_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("----questo è l'impiccato----\nPer creare una parola clicca su genera parola.\n" +
-                "Per inviare la scelta cliccare sul bottone invio (la scelta considerata sarà quella più a sinistra).\n" +
-                "In alto a sinistra trovi tutte le informazioni sulla parola e su di te.\n" +
-                "Il jolly è uno a parola e gli indizi costano monete (10, 5 e 15).\n" +
-                "In basso a destra trovi la difficoltà (di default è medio).");
+            combox_tema.SelectedIndex = -1;
         }
     }
 }

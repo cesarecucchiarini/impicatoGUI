@@ -34,7 +34,6 @@
             lbl_monete = new Label();
             lbl_jolly = new Label();
             lbl_usate = new Label();
-            btn_info = new Button();
             cbox_jolly = new CheckBox();
             tbox_inserimento = new TextBox();
             tbox_carattere = new TextBox();
@@ -62,6 +61,9 @@
             label15 = new Label();
             lbox_trovate = new ListBox();
             label13 = new Label();
+            label16 = new Label();
+            combox_tema = new ComboBox();
+            btn_canc = new Button();
             ((System.ComponentModel.ISupportInitialize)pbox_impiccato).BeginInit();
             SuspendLayout();
             // 
@@ -122,16 +124,6 @@
             lbl_usate.Name = "lbl_usate";
             lbl_usate.Size = new Size(0, 21);
             lbl_usate.TabIndex = 6;
-            // 
-            // btn_info
-            // 
-            btn_info.Location = new Point(332, 355);
-            btn_info.Name = "btn_info";
-            btn_info.Size = new Size(75, 23);
-            btn_info.TabIndex = 11;
-            btn_info.Text = "info";
-            btn_info.UseVisualStyleBackColor = true;
-            btn_info.Click += btn_info_Click;
             // 
             // cbox_jolly
             // 
@@ -328,7 +320,7 @@
             // 
             label12.AutoSize = true;
             label12.BackColor = SystemColors.ActiveCaption;
-            label12.Location = new Point(644, 355);
+            label12.Location = new Point(576, 355);
             label12.Name = "label12";
             label12.Size = new Size(54, 15);
             label12.TabIndex = 37;
@@ -339,7 +331,7 @@
             lbox_diff.FormattingEnabled = true;
             lbox_diff.ItemHeight = 15;
             lbox_diff.Items.AddRange(new object[] { "facile", "medio", "difficile" });
-            lbox_diff.Location = new Point(613, 373);
+            lbox_diff.Location = new Point(545, 373);
             lbox_diff.Name = "lbox_diff";
             lbox_diff.Size = new Size(120, 49);
             lbox_diff.TabIndex = 38;
@@ -378,7 +370,7 @@
             // 
             lbox_trovate.FormattingEnabled = true;
             lbox_trovate.ItemHeight = 15;
-            lbox_trovate.Location = new Point(450, 373);
+            lbox_trovate.Location = new Point(317, 373);
             lbox_trovate.Name = "lbox_trovate";
             lbox_trovate.Size = new Size(120, 49);
             lbox_trovate.TabIndex = 43;
@@ -387,17 +379,49 @@
             // 
             label13.AutoSize = true;
             label13.BackColor = SystemColors.ActiveCaption;
-            label13.Location = new Point(465, 355);
+            label13.Location = new Point(332, 355);
             label13.Name = "label13";
             label13.Size = new Size(80, 15);
             label13.TabIndex = 42;
             label13.Text = "parole trovate";
+            // 
+            // label16
+            // 
+            label16.AutoSize = true;
+            label16.BackColor = SystemColors.ActiveCaption;
+            label16.Location = new Point(576, 302);
+            label16.Name = "label16";
+            label16.Size = new Size(34, 15);
+            label16.TabIndex = 44;
+            label16.Text = "tema";
+            // 
+            // combox_tema
+            // 
+            combox_tema.DropDownStyle = ComboBoxStyle.DropDownList;
+            combox_tema.FormattingEnabled = true;
+            combox_tema.Location = new Point(539, 320);
+            combox_tema.Name = "combox_tema";
+            combox_tema.Size = new Size(247, 23);
+            combox_tema.TabIndex = 45;
+            // 
+            // btn_canc
+            // 
+            btn_canc.Location = new Point(477, 320);
+            btn_canc.Name = "btn_canc";
+            btn_canc.Size = new Size(47, 23);
+            btn_canc.TabIndex = 46;
+            btn_canc.Text = "canc";
+            btn_canc.UseVisualStyleBackColor = true;
+            btn_canc.Click += btn_canc_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btn_canc);
+            Controls.Add(combox_tema);
+            Controls.Add(label16);
             Controls.Add(lbox_trovate);
             Controls.Add(label13);
             Controls.Add(lbl_descrizione);
@@ -425,7 +449,6 @@
             Controls.Add(tbox_carattere);
             Controls.Add(tbox_inserimento);
             Controls.Add(cbox_jolly);
-            Controls.Add(btn_info);
             Controls.Add(lbl_usate);
             Controls.Add(lbl_jolly);
             Controls.Add(lbl_monete);
@@ -446,7 +469,6 @@
         private Label lbl_monete;
         private Label lbl_jolly;
         private Label lbl_usate;
-        private Button btn_info;
         private CheckBox cbox_jolly;
         private TextBox tbox_inserimento;
         private TextBox tbox_carattere;
@@ -474,5 +496,8 @@
         private Label label15;
         private ListBox lbox_trovate;
         private Label label13;
+        private Label label16;
+        private ComboBox combox_tema;
+        private Button btn_canc;
     }
 }
