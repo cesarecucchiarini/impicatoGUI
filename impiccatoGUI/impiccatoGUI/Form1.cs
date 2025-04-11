@@ -1,3 +1,5 @@
+using System.Drawing.Drawing2D;
+
 namespace impiccatoGUI
 {
     public partial class Form1 : Form
@@ -129,11 +131,7 @@ namespace impiccatoGUI
 
             azzeramento();
 
-            parolaSegreta = new char[scelta[1].Length];
-            for (int i = 0; i < parolaSegreta.Length; i++)
-            {
-                parolaSegreta[i] = '_';
-            }
+            parolaSegreta = new string('_', scelta[1].Length).ToCharArray();
             lbl_segreto.Text = new string(parolaSegreta);
         }
 
