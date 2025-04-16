@@ -72,7 +72,7 @@
             lbl_segreto.AutoSize = true;
             lbl_segreto.BackColor = SystemColors.ActiveCaption;
             lbl_segreto.Font = new Font("Segoe UI", 12F);
-            lbl_segreto.Location = new Point(372, 202);
+            lbl_segreto.Location = new Point(372, 165);
             lbl_segreto.Name = "lbl_segreto";
             lbl_segreto.Size = new Size(0, 21);
             lbl_segreto.TabIndex = 1;
@@ -80,7 +80,7 @@
             // btn_invio
             // 
             btn_invio.Enabled = false;
-            btn_invio.Location = new Point(38, 292);
+            btn_invio.Location = new Point(27, 366);
             btn_invio.Name = "btn_invio";
             btn_invio.Size = new Size(75, 23);
             btn_invio.TabIndex = 2;
@@ -91,8 +91,8 @@
             // lbl_tentativi
             // 
             lbl_tentativi.AutoSize = true;
-            lbl_tentativi.BackColor = SystemColors.ActiveCaption;
-            lbl_tentativi.Location = new Point(727, 76);
+            lbl_tentativi.BackColor = Color.FromArgb(255, 128, 128);
+            lbl_tentativi.Location = new Point(944, 67);
             lbl_tentativi.Name = "lbl_tentativi";
             lbl_tentativi.Size = new Size(0, 15);
             lbl_tentativi.TabIndex = 3;
@@ -100,8 +100,8 @@
             // lbl_monete
             // 
             lbl_monete.AutoSize = true;
-            lbl_monete.BackColor = SystemColors.ActiveCaption;
-            lbl_monete.Location = new Point(727, 111);
+            lbl_monete.BackColor = Color.FromArgb(255, 128, 128);
+            lbl_monete.Location = new Point(944, 102);
             lbl_monete.Name = "lbl_monete";
             lbl_monete.Size = new Size(0, 15);
             lbl_monete.TabIndex = 4;
@@ -109,8 +109,8 @@
             // lbl_jolly
             // 
             lbl_jolly.AutoSize = true;
-            lbl_jolly.BackColor = SystemColors.ActiveCaption;
-            lbl_jolly.Location = new Point(727, 14);
+            lbl_jolly.BackColor = Color.FromArgb(255, 128, 128);
+            lbl_jolly.Location = new Point(944, 5);
             lbl_jolly.Name = "lbl_jolly";
             lbl_jolly.Size = new Size(0, 15);
             lbl_jolly.TabIndex = 5;
@@ -120,7 +120,7 @@
             lbl_usate.AutoSize = true;
             lbl_usate.BackColor = SystemColors.ActiveCaption;
             lbl_usate.Font = new Font("Segoe UI", 12F);
-            lbl_usate.Location = new Point(116, 351);
+            lbl_usate.Location = new Point(116, 156);
             lbl_usate.Name = "lbl_usate";
             lbl_usate.Size = new Size(0, 21);
             lbl_usate.TabIndex = 6;
@@ -129,7 +129,7 @@
             // 
             cbox_jolly.AutoSize = true;
             cbox_jolly.Font = new Font("Segoe UI", 9F);
-            cbox_jolly.Location = new Point(43, 172);
+            cbox_jolly.Location = new Point(32, 246);
             cbox_jolly.Name = "cbox_jolly";
             cbox_jolly.Size = new Size(101, 19);
             cbox_jolly.TabIndex = 12;
@@ -138,14 +138,14 @@
             // 
             // tbox_inserimento
             // 
-            tbox_inserimento.Location = new Point(161, 263);
+            tbox_inserimento.Location = new Point(150, 337);
             tbox_inserimento.Name = "tbox_inserimento";
             tbox_inserimento.Size = new Size(150, 23);
             tbox_inserimento.TabIndex = 13;
             // 
             // tbox_carattere
             // 
-            tbox_carattere.Location = new Point(57, 263);
+            tbox_carattere.Location = new Point(46, 337);
             tbox_carattere.Name = "tbox_carattere";
             tbox_carattere.Size = new Size(29, 23);
             tbox_carattere.TabIndex = 14;
@@ -153,8 +153,8 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.BackColor = SystemColors.ActiveCaption;
-            label1.Location = new Point(19, 245);
+            label1.BackColor = Color.PaleGreen;
+            label1.Location = new Point(8, 319);
             label1.Name = "label1";
             label1.Size = new Size(108, 15);
             label1.TabIndex = 15;
@@ -163,8 +163,8 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.BackColor = SystemColors.ActiveCaption;
-            label2.Location = new Point(161, 245);
+            label2.BackColor = Color.PaleGreen;
+            label2.Location = new Point(150, 319);
             label2.Name = "label2";
             label2.Size = new Size(150, 15);
             label2.TabIndex = 16;
@@ -173,8 +173,8 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.BackColor = SystemColors.ActiveCaption;
-            label3.Location = new Point(43, 150);
+            label3.BackColor = Color.PaleGreen;
+            label3.Location = new Point(32, 224);
             label3.Name = "label3";
             label3.Size = new Size(29, 15);
             label3.TabIndex = 17;
@@ -183,8 +183,8 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.BackColor = SystemColors.ActiveCaption;
-            label4.Location = new Point(201, 150);
+            label4.BackColor = Color.PaleGreen;
+            label4.Location = new Point(190, 224);
             label4.Name = "label4";
             label4.Size = new Size(42, 15);
             label4.TabIndex = 18;
@@ -195,7 +195,7 @@
             label5.AutoSize = true;
             label5.BackColor = SystemColors.ActiveCaption;
             label5.Font = new Font("Segoe UI", 11F);
-            label5.Location = new Point(372, 168);
+            label5.Location = new Point(372, 131);
             label5.Name = "label5";
             label5.Size = new Size(108, 20);
             label5.TabIndex = 19;
@@ -205,7 +205,7 @@
             // 
             label6.AutoSize = true;
             label6.BackColor = SystemColors.ActiveCaption;
-            label6.Location = new Point(116, 332);
+            label6.Location = new Point(116, 131);
             label6.Name = "label6";
             label6.Size = new Size(74, 15);
             label6.TabIndex = 20;
@@ -214,8 +214,8 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.BackColor = SystemColors.ActiveCaption;
-            label7.Location = new Point(649, 76);
+            label7.BackColor = Color.FromArgb(255, 128, 128);
+            label7.Location = new Point(866, 67);
             label7.Name = "label7";
             label7.Size = new Size(53, 15);
             label7.TabIndex = 21;
@@ -224,8 +224,8 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.BackColor = SystemColors.ActiveCaption;
-            label8.Location = new Point(649, 111);
+            label8.BackColor = Color.FromArgb(255, 128, 128);
+            label8.Location = new Point(866, 102);
             label8.Name = "label8";
             label8.Size = new Size(51, 15);
             label8.TabIndex = 22;
@@ -234,8 +234,8 @@
             // label9
             // 
             label9.AutoSize = true;
-            label9.BackColor = SystemColors.ActiveCaption;
-            label9.Location = new Point(649, 14);
+            label9.BackColor = Color.FromArgb(255, 128, 128);
+            label9.Location = new Point(866, 5);
             label9.Name = "label9";
             label9.Size = new Size(32, 15);
             label9.TabIndex = 23;
@@ -243,7 +243,7 @@
             // 
             // btn_parola
             // 
-            btn_parola.Location = new Point(330, 398);
+            btn_parola.Location = new Point(289, 457);
             btn_parola.Name = "btn_parola";
             btn_parola.Size = new Size(61, 40);
             btn_parola.TabIndex = 24;
@@ -254,8 +254,8 @@
             // label10
             // 
             label10.AutoSize = true;
-            label10.BackColor = SystemColors.ActiveCaption;
-            label10.Location = new Point(727, 48);
+            label10.BackColor = Color.FromArgb(255, 128, 128);
+            label10.Location = new Point(944, 39);
             label10.Name = "label10";
             label10.Size = new Size(0, 15);
             label10.TabIndex = 26;
@@ -263,8 +263,8 @@
             // label11
             // 
             label11.AutoSize = true;
-            label11.BackColor = SystemColors.ActiveCaption;
-            label11.Location = new Point(649, 48);
+            label11.BackColor = Color.FromArgb(255, 128, 128);
+            label11.Location = new Point(866, 39);
             label11.Name = "label11";
             label11.Size = new Size(38, 15);
             label11.TabIndex = 25;
@@ -273,8 +273,8 @@
             // lbl_punti
             // 
             lbl_punti.AutoSize = true;
-            lbl_punti.BackColor = SystemColors.ActiveCaption;
-            lbl_punti.Location = new Point(727, 48);
+            lbl_punti.BackColor = Color.FromArgb(255, 128, 128);
+            lbl_punti.Location = new Point(944, 39);
             lbl_punti.Name = "lbl_punti";
             lbl_punti.Size = new Size(0, 15);
             lbl_punti.TabIndex = 27;
@@ -284,7 +284,7 @@
             combox_indizio.DropDownStyle = ComboBoxStyle.DropDownList;
             combox_indizio.FormattingEnabled = true;
             combox_indizio.Items.AddRange(new object[] { "prima lettera", "ultima lettera", "tema" });
-            combox_indizio.Location = new Point(188, 168);
+            combox_indizio.Location = new Point(177, 242);
             combox_indizio.Name = "combox_indizio";
             combox_indizio.Size = new Size(70, 23);
             combox_indizio.TabIndex = 32;
@@ -310,19 +310,18 @@
             // 
             // pbox_impiccato
             // 
-            pbox_impiccato.Location = new Point(573, 258);
+            pbox_impiccato.Location = new Point(625, 246);
             pbox_impiccato.Name = "pbox_impiccato";
-            pbox_impiccato.Size = new Size(215, 180);
+            pbox_impiccato.Size = new Size(273, 236);
             pbox_impiccato.SizeMode = PictureBoxSizeMode.StretchImage;
             pbox_impiccato.TabIndex = 35;
             pbox_impiccato.TabStop = false;
-            pbox_impiccato.Image = Image.FromFile(".\\impic\\0Errori.png");
             // 
             // label12
             // 
             label12.AutoSize = true;
-            label12.BackColor = SystemColors.ActiveCaption;
-            label12.Location = new Point(432, 380);
+            label12.BackColor = Color.FromArgb(255, 128, 128);
+            label12.Location = new Point(391, 439);
             label12.Name = "label12";
             label12.Size = new Size(54, 15);
             label12.TabIndex = 37;
@@ -330,10 +329,11 @@
             // 
             // lbox_diff
             // 
+            lbox_diff.BackColor = Color.FromArgb(255, 128, 128);
             lbox_diff.FormattingEnabled = true;
             lbox_diff.ItemHeight = 15;
             lbox_diff.Items.AddRange(new object[] { "facile", "medio", "difficile" });
-            lbox_diff.Location = new Point(401, 398);
+            lbox_diff.Location = new Point(360, 457);
             lbox_diff.Name = "lbox_diff";
             lbox_diff.Size = new Size(120, 49);
             lbox_diff.TabIndex = 38;
@@ -342,7 +342,7 @@
             // 
             cbox_descrizione.AutoSize = true;
             cbox_descrizione.Font = new Font("Segoe UI", 9F);
-            cbox_descrizione.Location = new Point(43, 197);
+            cbox_descrizione.Location = new Point(32, 271);
             cbox_descrizione.Name = "cbox_descrizione";
             cbox_descrizione.Size = new Size(85, 19);
             cbox_descrizione.TabIndex = 39;
@@ -372,7 +372,7 @@
             // 
             lbox_trovate.FormattingEnabled = true;
             lbox_trovate.ItemHeight = 15;
-            lbox_trovate.Location = new Point(622, 215);
+            lbox_trovate.Location = new Point(844, 152);
             lbox_trovate.Name = "lbox_trovate";
             lbox_trovate.Size = new Size(120, 34);
             lbox_trovate.TabIndex = 43;
@@ -380,8 +380,8 @@
             // label13
             // 
             label13.AutoSize = true;
-            label13.BackColor = SystemColors.ActiveCaption;
-            label13.Location = new Point(637, 197);
+            label13.BackColor = Color.FromArgb(255, 128, 128);
+            label13.Location = new Point(859, 134);
             label13.Name = "label13";
             label13.Size = new Size(80, 15);
             label13.TabIndex = 42;
@@ -390,8 +390,8 @@
             // label16
             // 
             label16.AutoSize = true;
-            label16.BackColor = SystemColors.ActiveCaption;
-            label16.Location = new Point(57, 380);
+            label16.BackColor = Color.FromArgb(255, 128, 128);
+            label16.Location = new Point(20, 439);
             label16.Name = "label16";
             label16.Size = new Size(34, 15);
             label16.TabIndex = 44;
@@ -399,16 +399,17 @@
             // 
             // combox_tema
             // 
+            combox_tema.BackColor = Color.White;
             combox_tema.DropDownStyle = ComboBoxStyle.DropDownList;
             combox_tema.FormattingEnabled = true;
-            combox_tema.Location = new Point(57, 398);
+            combox_tema.Location = new Point(20, 457);
             combox_tema.Name = "combox_tema";
             combox_tema.Size = new Size(247, 23);
             combox_tema.TabIndex = 45;
             // 
             // btn_canc
             // 
-            btn_canc.Location = new Point(57, 424);
+            btn_canc.Location = new Point(20, 483);
             btn_canc.Name = "btn_canc";
             btn_canc.Size = new Size(47, 23);
             btn_canc.TabIndex = 46;
@@ -420,7 +421,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(976, 540);
             Controls.Add(btn_canc);
             Controls.Add(combox_tema);
             Controls.Add(label16);

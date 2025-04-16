@@ -11,6 +11,13 @@ namespace impiccatoGUI
             {
                 combox_tema.Items.Add(parole[i * 50 + i]);
             }
+            MessageBox.Show("In questa versione dell'impiccato puoi scegliere il tema, o lasciarlo casuale, e la difficoltà.\n" +
+                "Quando si clicca sul pulsante\"invio\" verrà controllato prima l'input di un singolo carattere, poi l'input della" +
+                "parola intera, poi la richiesta dei jolly e infine l'indizio.\n" +
+                "Quando si commette un'errore di scrittura, ad esempio inserendo la stessa lettera due volte, il gioco continuerà senza " +
+                "scalare tentativi.\n" +
+                "Se si sbaglia una lettera un tentativo verrà scalato, se invece si sbaglia una parola allora si perderà automaticamente la partita.\n" +
+                "Se si vuole cambiare la parola segreta basta cliccare di nuovo sul pulsante genera.");
         }
 
         Random rnd = new Random();
@@ -36,9 +43,9 @@ namespace impiccatoGUI
             btn_chiudi.Click += btn_chiudi_Click;
             this.Controls.Add(btn_chiudi);
             PictureBox pbox_sconfitta = new PictureBox();
-            pbox_sconfitta.Location = new Point(25, 258);
+            pbox_sconfitta.Location = new Point(625, 246);
             pbox_sconfitta.Name = "pbox_impiccato";
-            pbox_sconfitta.Size = new Size(215, 180);
+            pbox_sconfitta.Size = new Size(273, 236);
             pbox_sconfitta.SizeMode = PictureBoxSizeMode.StretchImage;
             pbox_sconfitta.TabIndex = 35;
             pbox_sconfitta.TabStop = false;
